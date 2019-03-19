@@ -10,7 +10,7 @@ window.onload = function(){
  */
 var _vis;
 var colorScale = d3.scaleOrdinal(d3["schemeAccent"]);
-const MARGINS = { top:10, right:10, bottom:60, left: 60};
+const MARGINS = { top:10, right:100, bottom:60, left: 60};
 
 //we can use object initializer to create object
 //or use constructor function
@@ -22,6 +22,7 @@ var Scatterplot = function(){
 
     this.svgContainer;      //have an SVG container, for <svg> element from the document
     this.datapoint;         //circles
+    this.piepoint
 
     this.xAxisScale;
     this.yAxisScale;
@@ -63,17 +64,18 @@ var Scatterplot = function(){
     this.createCircles = function(){
         //create circle for every data point and put it into "datapoint" variable
         this.datapoint = this.svgContainer.selectAll("circle")
-            .data(this.data.filter(function(d){
-                return d.ARL_Count == 1;
-            }))                    //bind data to circle
+            .data(this.data)                    //bind data to circle
             .enter()                            //allow access to data
             .append("circle")                  //append circle to document
             .attr("r", 2)
             .attr("cx", function(d){
                 return _vis.xAxisScale(d["LanguagesSupported"]);
             })
+            //.attr("cx", function(d){return x;})   d is the data we are currently in
             .attr("cy", function(d){
-                return _vis.yAxisScale(d["AverageRating"]);
+                return _vis.yAxisScale(d["ARL_Count"] == 1
+                    ? d["AverageRating"]
+                    : d["AverageRating"] -(0.4/(d["ARL_Count"]-1)/2) +(d["ARL_Serial"]-(d["ARL_Count"]-1)/2) *(0.4/(d["ARL_Count"]-1)/2));
             })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
@@ -97,17 +99,16 @@ var Scatterplot = function(){
     }
 
     this.createRectangles = function(){
-        //create circle for every data point and put it into "datapoint" variable
         this.datapoint = this.svgContainer.selectAll("rect")
             .data(this.data.filter(function(d){
                 return d.ARL_Count == 2;
-            }))                    //bind data to circle
-            .enter()                            //allow access to data
-            .append("rect")                  //append circle to document
+            }))
+            .enter()
+            .append("rect")
             .attr("width", 4)
             .attr("height", 4)
             .attr("x", function(d){
-                return _vis.xAxisScale(d["LanguagesSupported"]) - 2;
+                return _vis.xAxisScale(d["LanguagesSupported"]) - 6;
             })
             //.attr("cx", function(d){return x;})   d is the data we are currently in
             .attr("y", function(d){
@@ -147,6 +148,7 @@ var Scatterplot = function(){
             .text(function(d){
                 return d.AppName;
             })
+        ;
     }
 
 
@@ -181,7 +183,8 @@ function loadData(path){
         _vis.setupScale([0,80],[MARGINS.left,_vis.width-MARGINS.left],[0,5],[_vis.height-MARGINS.bottom, MARGINS.top]);
         _vis.setupAxes();
         _vis.createCircles();
-        _vis.createRectangles();
-        _vis.createTriangles();
+        //_vis.createRectangles();
+        //_vis.createTriangles();
+        //_vis.createArcs();
     });
 }
