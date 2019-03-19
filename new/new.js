@@ -37,9 +37,9 @@ var Scatterplot = function(){
     this.yAxis;
 
     this.setupAxes = function(){
-        this.xAxis = d3.axisBottom(this.xAxisScale).tickSize(-this.height);
+        this.xAxis = d3.axisBottom(this.xAxisScale).tickSize(-5);
         this.svgContainer.append("g").attr("transform", `translate(0, ${this.height-MARGINS.bottom})`).call(this.xAxis);                    //append a group into svg
-        this.yAxis = d3.axisLeft(this.yAxisScale).tickSize(-this.width);
+        this.yAxis = d3.axisLeft(this.yAxisScale).tickSize(-5);
         this.svgContainer.append("g").attr("transform", `translate(${MARGINS.left}, 0)`).call(this.yAxis);                    //append a group into svg
 
         //x-axis label
