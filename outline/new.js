@@ -38,9 +38,9 @@ var Scatterplot = function(){
     this.yAxis;
 
     this.setupAxes = function(){
-        this.xAxis = d3.axisBottom(this.xAxisScale).tickSize(-5);
+        this.xAxis = d3.axisBottom(this.xAxisScale).tickSize(-this.height);
         this.svgContainer.append("g").attr("transform", `translate(0, ${this.height-MARGINS.bottom})`).call(this.xAxis);                    //append a group into svg
-        this.yAxis = d3.axisLeft(this.yAxisScale).tickSize(-5);
+        this.yAxis = d3.axisLeft(this.yAxisScale).tickSize(-this.width);
         this.svgContainer.append("g").attr("transform", `translate(${MARGINS.left}, 0)`).call(this.yAxis);                    //append a group into svg
 
         //x-axis label
@@ -87,7 +87,7 @@ var Scatterplot = function(){
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
             })
-            //.style("stroke", "black")
+            .style("stroke", "black")
             .append("svg:title")
             .text(function(d){
                 return d.AppName;
@@ -124,7 +124,7 @@ var Scatterplot = function(){
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
             })
-            //.style("stroke", "black")
+            .style("stroke", "black")
             .append("svg:title")
             .text(function(d){
                 return d.AppName;
@@ -133,28 +133,24 @@ var Scatterplot = function(){
     }
 
     this.createTriangles = function(){
-        this.datapoint = this.svgContainer.selectAll("circle")
+        this.datapoint = this.svgContainer.selectAll("polygon")
             .data(this.data.filter(function(d){
-                return d.ARL_Count >= 1;
+                return d.ARL_Count >= 3;
             }))
             .enter()
-            .append("circle")
-            .attr("r", 2)
-            .attr("cx", function(d){
-                return 0;
-            })
-            .attr("cy", function(d){
-                return 0;
+            .append("polygon")
+            .attr("points", function(d){
+                return [[0,0].join(",")
+                    ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*7,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*7].join(",")
+                    ,[Math.sin(360/d.ARL_Count/2*Math.PI/180)*7,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*7].join(",")].join(" ")
             })
             .attr("transform", function(d){
-                return d.ARL_Count == 1
-                    ? "translate(" + _vis.xAxisScale(d["LanguagesSupported"]) + "," + _vis.yAxisScale(d["AverageRating"]) + ")"
-                    : "translate(" + _vis.xAxisScale(d["LanguagesSupported"]) + "," + _vis.yAxisScale(d["AverageRating"]-0.04) + ")rotate(" + 360/d["ARL_Count"]*d["ARL_Serial"] + ",0,-4)"
+                return "translate(" + _vis.xAxisScale(d["LanguagesSupported"]) + "," + _vis.yAxisScale(d["AverageRating"]) + ")rotate(" + 360/d["ARL_Count"]*d["ARL_Serial"] + ")"
             })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
             })
-            //.style("stroke", "black")
+            .style("stroke", "black")
             .append("svg:title")
             .text(function(d){
                 return d.AppName;
@@ -193,8 +189,8 @@ function loadData(path){
         _vis.data = data;
         _vis.setupScale([0,80],[MARGINS.left,_vis.width-MARGINS.left],[0,5],[_vis.height-MARGINS.bottom, MARGINS.top]);
         _vis.setupAxes();
-        //_vis.createCircles();
-        //_vis.createRectangles();
+        _vis.createCircles();
+        _vis.createRectangles();
         _vis.createTriangles();
     });
 }
