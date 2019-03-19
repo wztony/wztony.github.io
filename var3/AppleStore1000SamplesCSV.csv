@@ -1,0 +1,1001 @@
+No.,Helper,AppName,SizeBytes,Price,RatingCount,AverageRating,PrimaryGenre,LanguagesSupported,ARL_Count,ARL_Serial,ARLCAT,ARL_Unique,ARL_Per
+1,1,Facebook,"389,879,808.00",0,2974676,3.5,Social Networking,29,2,1,3.5 29,1,0.5
+2,2,Instagram,113954816,0,2161558,4.5,Photo & Video,29,2,1,4.5 29,2,0.5
+3,3,Clash of Clans,116476928,0,2130805,4.5,Games,18,15,1,4.5 18,3,0.066666667
+4,4,Temple Run,65921024,0,1724546,4.5,Games,1,211,1,4.5 1,4,0.004739336
+5,5,Pandora - Music & Radio,130242560,0,1126879,4,Music,1,69,1,4 1,5,0.014492754
+6,6,Pinterest,74778624,0,1061624,4.5,Social Networking,27,2,1,4.5 27,6,0.5
+7,7,Bible,92774400,0,985920,4.5,Reference,45,2,1,4.5 45,7,0.5
+8,8,Candy Crush Saga,222846976,0,961794,4.5,Games,24,2,1,4.5 24,8,0.5
+9,9,Spotify Music,132510720,0,878563,4.5,Music,18,15,2,4.5 18,3,0.066666667
+10,10,Angry Birds,175966208,0,824451,4.5,Games,10,27,1,4.5 10,9,0.037037037
+11,11,Subway Surfers,156038144,0,706110,4.5,Games,1,211,2,4.5 1,4,0.004739336
+12,12,Fruit Ninja Classic,104590336,1.99,698516,4.5,Games,13,28,1,4.5 13,10,0.035714286
+13,13,Solitaire,101943296,0,679055,4.5,Games,11,29,1,4.5 11,11,0.034482759
+14,14,CSR Racing,524803072,0,677247,4.5,Games,10,27,2,4.5 10,9,0.037037037
+15,15,Crossy Road - Endless Arcade Hopper,165471232,0,669079,4.5,Games,13,28,2,4.5 13,10,0.035714286
+16,16,Injustice: Gods Among Us,1829599232,0,612532,4.5,Games,13,28,3,4.5 13,10,0.035714286
+17,17,Hay Day,113641472,0,567344,4.5,Games,18,15,3,4.5 18,3,0.066666667
+18,18,Clear Vision (17+),37879808,0.99,541693,4.5,Games,1,211,3,4.5 1,4,0.004739336
+19,19,Minecraft: Pocket Edition,147787776,6.99,522012,4.5,Games,11,29,2,4.5 11,11,0.034482759
+20,20,PAC-MAN,100849664,0,508808,3,Games,10,3,1,3 10,12,0.333333333
+21,21,Calorie Counter & Diet Tracker by MyFitnessPal,152700928,0,507706,4.5,Health & Fitness,19,7,1,4.5 19,13,0.142857143
+22,22,DragonVale,153074688,0,503230,4.5,Games,10,27,3,4.5 10,9,0.037037037
+23,23,"The Weather Channel: Forecast, Radar & Alerts",199734272,0,495626,3.5,Weather,33,3,1,3.5 33,14,0.333333333
+24,24,Head Soccer,121319424,0,481564,5,Games,11,6,1,5 11,15,0.166666667
+25,25,Google – Search made just for mobile,179979264,0,479440,3.5,Utilities,33,3,2,3.5 33,14,0.333333333
+26,26,Despicable Me: Minion Rush,147123200,0,464312,4.5,Games,16,16,1,4.5 16,16,0.0625
+27,27,The Sims™ FreePlay,695603200,0,446880,4.5,Games,12,44,1,4.5 12,17,0.022727273
+28,28,Google Earth,37214208,0,446185,3.5,Travel,30,1,1,3.5 30,18,1
+29,29,Plants vs. Zombies,105379840,0.99,426463,5,Games,5,4,1,5 5,19,0.25
+30,30,Sonic Dash,186687488,0,418033,4.5,Games,7,16,1,4.5 7,20,0.0625
+31,31,"Groupon - Deals, Coupons & Discount Shopping App",127382528,0,417779,4.5,Shopping,10,27,4,4.5 10,9,0.037037037
+32,32,8 Ball Pool™,86776832,0,416736,4.5,Games,10,27,5,4.5 10,9,0.037037037
+33,33,Tiny Tower - Free City Building,124720128,0,414803,4.5,Games,1,211,4,4.5 1,4,0.004739336
+34,34,Jetpack Joyride,108813312,0,405647,4.5,Games,3,10,1,4.5 3,21,0.1
+35,35,Bike Race - Top Motorcycle Racing Games,120187904,0,405007,4.5,Games,9,25,1,4.5 9,22,0.04
+36,36,"Shazam - Discover music, artists, videos & lyrics",147093504,0,402925,4,Music,16,4,1,4 16,23,0.25
+37,37,Kim Kardashian: Hollywood,239976448,0,397730,4.5,Games,1,211,5,4.5 1,4,0.004739336
+38,38,Doodle Jump,48741376,0.99,395261,4.5,Games,1,211,6,4.5 1,4,0.004739336
+39,39,Trivia Crack,265484288,0,393469,4.5,Games,26,3,1,4.5 26,24,0.333333333
+40,40,WordBrain,110595072,0,391401,4.5,Games,1,211,7,4.5 1,4,0.004739336
+41,41,Sniper 3D Assassin: Shoot to Kill Gun Game,157851648,0,386521,5,Games,9,5,1,5 9,25,0.2
+42,42,Flow Free,20669440,0,373857,4.5,Games,11,29,3,4.5 11,11,0.034482759
+43,43,Lose It! – Weight Loss Program and Calorie Counter,182054912,0,373835,4,Health & Fitness,1,69,2,4 1,5,0.014492754
+44,44,Skype for iPhone,133238784,0,373519,3.5,Social Networking,32,1,1,3.5 32,26,1
+45,45,Geometry Dash Lite,69076992,0,370370,5,Games,1,36,1,5 1,27,0.027777778
+46,46,Draw Something,84379648,2.99,360974,4.5,Games,1,211,8,4.5 1,4,0.004739336
+47,47,?Sudoku,71002112,0,359832,4.5,Games,7,16,2,4.5 7,20,0.0625
+48,48,Twitter,210569216,0,354058,3.5,News,33,3,3,3.5 33,14,0.333333333
+49,49,Messenger,275729408,0,351466,3,Social Networking,33,1,1,3 33,28,1
+50,50,"Waze - GPS Navigation, Maps & Real-time Traffic",94139392,0,345046,4.5,Navigation,36,2,1,4.5 36,29,0.5
+51,51,Zillow Real Estate - Homes for Sale & for Rent,132632576,0,342969,4.5,Lifestyle,1,211,9,4.5 1,4,0.004739336
+52,52,Tumblr,151573504,0,334293,4,Social Networking,16,4,2,4 16,23,0.25
+53,53,Fruit Ninja®,163801088,0,327025,4.5,Games,13,28,4,4.5 13,10,0.035714286
+54,54,Infinity Blade,624107810,0.99,326482,5,Games,13,1,1,5 13,30,1
+55,55,Snapchat,203038720,0,323905,2.5,Photo & Video,22,1,1,2.5 22,31,1
+56,56,Netflix,125016064,0,308844,3.5,Entertainment,20,2,1,3.5 20,32,0.5
+57,57,Starbucks,135032832,0,303856,4.5,Food & Drink,2,17,1,4.5 2,33,0.058823529
+58,58,Pixel Gun 3D,1744486400,0,301182,4.5,Games,1,211,10,4.5 1,4,0.004739336
+59,59,Temple Run 2,158025728,0,295211,4.5,Games,1,211,11,4.5 1,4,0.004739336
+60,60,My Horse,301896704,0,293857,4.5,Games,8,16,1,4.5 8,34,0.0625
+61,61,iHeartRadio – Free Music & Radio Stations,116443136,0,293228,4,Music,2,2,1,4 2,35,0.5
+62,62,Fandango Movies - Times + Tickets,81924096,0,291787,4,Entertainment,1,69,3,4 1,5,0.014492754
+63,63,"ESPN: Get scores, news, alerts & watch live sports",51538944,0,290996,3.5,Sports,2,6,1,3.5 2,36,0.166666667
+64,64,WhatsApp Messenger,135044096,0,287589,4.5,Social Networking,35,1,1,4.5 35,37,1
+65,65,Word Cookies!,113321984,0,287095,4.5,Games,1,211,12,4.5 1,4,0.004739336
+66,66,"YouTube - Watch Videos, Music, and Live Streams",124673024,0,278166,2.5,Photo & Video,34,1,1,2.5 34,38,1
+67,67,Dragon City Mobile,123612160,0,277268,4.5,Games,12,44,2,4.5 12,17,0.022727273
+68,68,The Simpsons™: Tapped Out,86079488,0,274501,4,Games,18,6,1,4 18,39,0.166666667
+69,69,Plants vs. Zombies™ 2,98507776,0,267394,4.5,Games,6,16,1,4.5 6,40,0.0625
+70,70,Clash Royale,114408448,0,266921,4.5,Games,15,21,1,4.5 15,41,0.047619048
+71,71,Geometry Dash,83931136,1.99,266440,5,Games,1,36,2,5 1,27,0.027777778
+72,72,"eBay: Best App to Buy, Sell, Save! Online Shopping",128512000,0,262241,4,Shopping,9,5,1,4 9,42,0.2
+73,73,Kik,151864320,0,260965,4,Social Networking,14,5,1,4 14,43,0.2
+74,74,Domino's Pizza USA,105743360,0,258624,5,Food & Drink,2,2,1,5 2,44,0.5
+75,75,Pokémon GO,290762752,0,257627,3,Games,8,1,1,3 8,45,1
+76,76,CSR Racing 2,1944321024,0,257100,5,Games,11,6,2,5 11,15,0.166666667
+77,77,Star Wars™: Commander,187205632,0,253448,4.5,Games,11,29,4,4.5 11,11,0.034482759
+78,78,"Kindle – Read eBooks, Magazines & Textbooks",169747456,0,252076,3.5,Book,9,1,1,3.5 9,46,1
+79,79,Colorfy: Coloring Book for Adults,124185600,0,247809,4.5,Entertainment,13,28,5,4.5 13,10,0.035714286
+80,80,Boom Beach,153955328,0,241929,4.5,Games,4,8,1,4.5 4,47,0.125
+81,81,MARVEL Contest of Champions,868048896,0,233599,4.5,Games,17,6,1,4.5 17,48,0.166666667
+82,82,Chase Mobile?,39505920,0,233270,4.5,Finance,2,17,2,4.5 2,33,0.058823529
+83,83,"Mint: Personal Finance, Budget, Bills & Money",162891776,0,232940,4,Finance,1,69,4,4 1,5,0.014492754
+84,84,MADDEN NFL Mobile,147190784,0,230289,4.5,Games,1,211,13,4.5 1,4,0.004739336
+85,85,"Yelp - Nearby Restaurants, Shopping & Services",167407616,0,223885,4,Travel,18,6,2,4 18,39,0.166666667
+86,86,Bejeweled Blitz,91591680,0,221002,4,Games,1,69,5,4 1,5,0.014492754
+87,87,Tiny Wings,30252032,0.99,219418,4.5,Games,6,16,2,4.5 6,40,0.0625
+88,88,Can You Escape,64293888,0,218024,4.5,Games,16,16,2,4.5 16,16,0.0625
+89,89,Traffic Rush,8573952,0.99,213092,3.5,Games,1,34,1,3.5 1,49,0.029411765
+90,90,"The Weather Channel App for iPad – best local forecast, radar map, and storm tracking",59101184,0,208648,4,Weather,1,69,6,4 1,5,0.014492754
+91,91,Dictionary.com Dictionary & Thesaurus,111275008,0,200047,4,Reference,1,69,7,4 1,5,0.014492754
+92,92,Fallout Shelter,1172922368,0,199396,4.5,Games,5,17,1,4.5 5,50,0.058823529
+93,93,SimCity BuildIt,96606208,0,198338,4.5,Games,15,21,2,4.5 15,41,0.047619048
+94,94,Real Basketball,70336512,0,198050,4.5,Games,1,211,14,4.5 1,4,0.004739336
+95,95,Yahoo Fantasy Sports,131000320,0,190670,3.5,Sports,45,1,1,3.5 45,51,1
+96,96,"WeatherBug - Local Weather, Radar, Maps, Alerts",100524032,0,188583,3.5,Weather,3,2,1,3.5 3,52,0.5
+97,97,Asphalt 8: Airborne,1777940480,0,188568,4.5,Games,15,21,3,4.5 15,41,0.047619048
+98,98,Magic Jigsaw Puzzles,235259904,0,187666,4.5,Games,10,27,6,4.5 10,9,0.037037037
+99,99,Farm Heroes Saga,262421504,0,187579,4.5,Games,14,21,1,4.5 14,53,0.047619048
+100,0,Pocket God,145293312,0.99,187529,4,Entertainment,1,69,8,4 1,5,0.014492754
+101,1,Beer Pong Game,"188,956,672.00",0,187315,2,Games,9,1,1,2 9,54,1
+102,2,Glow Hockey 2 FREE,34056767,0,186653,3.5,Games,1,34,2,3.5 1,49,0.029411765
+103,3,Pictoword: Fun 2 Pics Guess What's the Word Trivia,126216192,0,186089,5,Games,1,36,3,5 1,27,0.027777778
+104,4,ROBLOX,115178496,0,183621,4.5,Games,1,211,15,4.5 1,4,0.004739336
+105,5,IMDb Movies & TV - Trailers and Showtimes,88702976,0,183425,4.5,Entertainment,10,27,7,4.5 10,9,0.037037037
+106,6,Bejeweled Classic,99593216,0,183259,4.5,Games,5,17,2,4.5 5,50,0.058823529
+107,7,Daily Celebrity Crossword,94110720,0,181384,4,Games,1,69,9,4 1,5,0.014492754
+108,8,AdVenture Capitalist,292289536,0,181359,4.5,Games,1,211,16,4.5 1,4,0.004739336
+109,9,Blackjack by MobilityWare,105431040,0,180087,3.5,Games,5,1,1,3.5 5,55,1
+110,10,Call of Duty®: Heroes,210842624,0,179416,4.5,Games,7,16,3,4.5 7,20,0.0625
+111,11,Deer Hunter Classic,185881600,0,179111,4.5,Games,12,44,3,4.5 12,17,0.022727273
+112,12,"ooVoo – Free Video Call, Text and Voice",113510400,0,177501,4.5,Social Networking,21,5,1,4.5 21,56,0.2
+113,13,Agar.io,63954944,0,176514,4.5,Games,1,211,17,4.5 1,4,0.004739336
+114,14,Piano Tiles (Don't Tap The White Tile),22286336,0,172686,4.5,Games,13,28,6,4.5 13,10,0.035714286
+115,15,TRUTH or DARE!!! - FREE,20795392,0,171055,3,Entertainment,1,20,1,3 1,57,0.05
+116,16,Angry Birds Rio,138319872,0,170843,4.5,Games,1,211,18,4.5 1,4,0.004739336
+117,17,The Secret Society® - Hidden Mystery,1433910272,0,168674,4,Games,11,8,1,4 11,58,0.125
+118,18,TextNow - Unlimited Text + Calls,130637824,0,164963,3.5,Social Networking,3,2,2,3.5 3,52,0.5
+119,19,Real Racing 3,874184704,0,164483,4.5,Games,12,44,4,4.5 12,17,0.022727273
+120,20,Highway Rider,169675776,0,164377,4.5,Games,1,211,19,4.5 1,4,0.004739336
+121,21,Viber Messenger – Text & Call,129657856,0,164249,4.5,Social Networking,32,2,1,4.5 32,59,0.5
+122,22,Plants vs. Zombies HD,225859584,0.99,163598,5,Games,5,4,2,5 5,19,0.25
+123,23,"Duolingo - Learn Spanish, French and more",89782272,0,162701,4.5,Education,24,2,2,4.5 24,8,0.5
+124,24,Evernote - stay organized,158578688,0,161065,4,Productivity,23,3,1,4 23,60,0.333333333
+125,25,Words with Friends – Best Word Game,183009280,0,160668,4.5,Games,6,16,3,4.5 6,40,0.0625
+126,26,WatchESPN,33714176,0,159735,4,Sports,1,69,10,4 1,5,0.014492754
+127,27,Bowmasters - Top Multiplayer Bowman Archery Game,164000768,0,159323,4.5,Games,1,211,20,4.5 1,4,0.004739336
+128,28,aa,11337728,0,158845,4.5,Games,1,211,21,4.5 1,4,0.004739336
+129,29,2048,15536128,0,157882,4.5,Games,7,16,4,4.5 7,20,0.0625
+130,30,Episode - Choose Your Story,182361088,0,155903,4.5,Games,1,211,22,4.5 1,4,0.004739336
+131,31,Google Maps - Navigation & Transit,120232960,0,154911,4.5,Navigation,34,2,1,4.5 34,61,0.5
+132,32,Infinity Blade II,1344401408,0.99,153588,4.5,Games,16,16,3,4.5 16,16,0.0625
+133,33,Dumb Ways to Die,842893312,0,151559,4.5,Games,1,211,23,4.5 1,4,0.004739336
+134,34,MyRadar NOAA Weather Radar Forecast,127284224,0,150158,4.5,Weather,8,16,2,4.5 8,34,0.0625
+135,35,Jurassic World™: The Game,482223104,0,149138,4.5,Games,10,27,8,4.5 10,9,0.037037037
+136,36,The Masters Tournament,120725504,0,148160,4.5,Sports,1,211,24,4.5 1,4,0.004739336
+137,37,GasBuddy,145240064,0,145549,4.5,Travel,1,211,25,4.5 1,4,0.004739336
+138,38,Color Switch,77757440,0,145043,4.5,Games,4,8,2,4.5 4,47,0.125
+139,39,AccuWeather - Weather for Life,181941248,0,144214,3.5,Weather,43,1,1,3.5 43,62,1
+140,40,The Room,338273280,0.99,143908,5,Games,1,36,4,5 1,27,0.027777778
+141,41,Plague Inc.,95603712,0.99,143285,4.5,Games,14,21,2,4.5 14,53,0.047619048
+142,42,Tinder,126720000,0,143040,3.5,Lifestyle,42,1,1,3.5 42,63,1
+143,43,Wish - Shopping Made Fun,48428032,0,141960,4.5,Shopping,30,5,1,4.5 30,64,0.2
+144,44,Iron Force,124666880,0,141634,5,Games,12,3,1,5 12,65,0.333333333
+145,45,Racing Penguin Free - Top Flying and Diving Game,79857664,0,141224,4.5,Games,1,211,26,4.5 1,4,0.004739336
+146,46,Two Dots,285004800,0,139486,4.5,Games,1,211,27,4.5 1,4,0.004739336
+147,47,Jigsaw Puzzle,104091648,0,138726,4.5,Games,46,3,1,4.5 46,66,0.333333333
+148,48,"Yahoo Sports - Teams, Scores, News & Highlights",130583552,0,137951,4,Sports,6,9,1,4 6,67,0.111111111
+149,49,Summoners War,38124544,0,137122,4.5,Games,15,21,4,4.5 15,41,0.047619048
+150,50,Weight Watchers,230720512,0,136833,3.5,Health & Fitness,6,6,1,3.5 6,68,0.166666667
+151,51,"Gmail - email by Google: secure, fast & organized",236067840,0,135962,4,Productivity,56,1,1,4 56,69,1
+152,52,SoundCloud - Music & Audio,105009152,0,135744,4,Music,7,5,1,4 7,70,0.2
+153,53,Sniper Shooter: Gun Shooting Games,113509376,0,134080,5,Games,1,36,5,5 1,27,0.027777778
+154,54,Candy Crush Soda Saga,241862656,0,133394,4.5,Games,6,16,4,4.5 6,40,0.0625
+155,55,Fox News,64705536,0,132703,4,News,1,69,11,4 1,5,0.014492754
+156,56,Magic Piano by Smule,55030784,0,131695,4.5,Music,12,44,5,4.5 12,17,0.022727273
+157,57,Where's My Water?,90853376,1.99,131656,4.5,Games,11,29,5,4.5 11,11,0.034482759
+158,58,shopkick - Shopping Rewards & Discounts,74822656,0,130823,4.5,Shopping,2,17,3,4.5 2,33,0.058823529
+159,59,My Singing Monsters,240521216,0,130519,4.5,Games,7,16,5,4.5 7,20,0.0625
+160,60,Flashlight ?,42027008,0,130450,5,Utilities,22,1,1,5 22,71,1
+161,61,Spider Solitaire Free by MobilityWare,91588608,0,128739,4.5,Games,3,10,2,4.5 3,21,0.1
+162,62,My Verizon,150791168,0,126948,4.5,Utilities,2,17,4,4.5 2,33,0.058823529
+163,63,"Amazon App: shop, scan, compare, and read reviews",133688320,0,126312,3.5,Shopping,8,2,1,3.5 8,72,0.5
+164,64,Smash Hit,97505280,0,126233,4.5,Games,9,25,2,4.5 9,22,0.04
+165,65,?Solitaire,58882048,0,124618,4.5,Games,7,16,6,4.5 7,20,0.0625
+166,66,My Talking Tom,255747072,0,123859,4.5,Games,13,28,7,4.5 13,10,0.035714286
+167,67,Pic Collage - Picture Editor & Photo Collage Maker,109210624,0,123433,5,Photo & Video,12,3,2,5 12,65,0.333333333
+168,68,Funimate video editor: add cool effects to videos,104902656,0,123268,4.5,Photo & Video,7,16,7,4.5 7,20,0.0625
+169,69,iTranslate - Language Translator & Dictionary,287933440,0,123215,3.5,Productivity,23,2,1,3.5 23,73,0.5
+170,70,Guess My Age î€  Math Magic,767126,0,123190,3,Education,1,20,2,3 1,57,0.05
+171,71,Clumsy Ninja,255400960,0,123032,4.5,Games,5,17,3,4.5 5,50,0.058823529
+172,72,Tetris® Blitz,131477504,0,122868,4.5,Games,11,29,6,4.5 11,11,0.034482759
+173,73,Star Wars™: Galaxy of Heroes,119752704,0,122260,4.5,Games,15,21,5,4.5 15,41,0.047619048
+174,74,Bubble Mania™,189151232,0,122081,4.5,Games,1,211,28,4.5 1,4,0.004739336
+175,75,Bank of America - Mobile Banking,160925696,0,119773,3.5,Finance,2,6,2,3.5 2,36,0.166666667
+176,76,PayPal - Send and request money safely,227795968,0,119487,4,Finance,19,3,1,4 19,74,0.333333333
+177,77,Smule Sing!,109940736,0,119316,4.5,Music,12,44,6,4.5 12,17,0.022727273
+178,78,Mad Libs,118498304,0,117889,3,Entertainment,1,20,3,3 1,57,0.05
+179,79,Geometry Dash Meltdown,55445504,0,117470,4.5,Games,1,211,29,4.5 1,4,0.004739336
+180,80,Beat the Boss 2,205271040,0,117338,4.5,Games,15,21,6,4.5 15,41,0.047619048
+181,81,"Village Life: Love, Marriage and Babies",502828032,0,116620,4.5,Games,8,16,3,4.5 8,34,0.0625
+182,82,Call of Duty: Black Ops Zombies,880267264,6.99,116601,4.5,Games,1,211,30,4.5 1,4,0.004739336
+183,83,MORTAL KOMBAT X,1738707968,0,114475,4.5,Games,13,28,8,4.5 13,10,0.035714286
+184,84,Sky Burger - Build & Match Food Free,146228224,0,114096,4.5,Games,3,10,3,4.5 3,21,0.1
+185,85,Big Fish Casino – Best Vegas Slot Machines & Games,108107776,0,113959,4.5,Games,1,211,31,4.5 1,4,0.004739336
+186,86,OpenTable - Restaurant Reservations,93420544,0,113936,4.5,Food & Drink,6,16,5,4.5 6,40,0.0625
+187,87,Yahoo Mail - Keeps You Organized!,177899520,0,113709,4,Productivity,45,2,1,4 45,75,0.5
+188,88,"CNN: Breaking US & World News, Live Video",80211968,0,112886,3.5,News,1,34,3,3.5 1,49,0.029411765
+189,89,Followers - Social Analytics For Instagram,59160576,0,112778,4.5,Social Networking,11,29,7,4.5 11,11,0.034482759
+190,90,Yahoo Weather,123047936,0,112603,4.5,Weather,39,1,1,4.5 39,76,1
+191,91,"Monster Legends RPG - War, Fight & Heroes Game",170844160,0,111579,4.5,Games,12,44,7,4.5 12,17,0.022727273
+192,92,TuneIn Radio - MLB NBA Audiobooks Podcasts Music,101735424,0,110420,4.5,Music,14,21,3,4.5 14,53,0.047619048
+193,93,Fairway Solitaire Blast,124966912,0,110062,4.5,Games,9,25,3,4.5 9,22,0.04
+194,94,Twitch,79983616,0,109549,4.5,Entertainment,26,3,2,4.5 26,24,0.333333333
+195,95,Allrecipes Dinner Spinner,36399104,0,109349,3.5,Food & Drink,1,34,4,3.5 1,49,0.029411765
+196,96,Angry Birds 2,446483456,0,109104,4,Games,10,9,1,4 10,77,0.111111111
+197,97,myAT&T,68491264,0,108507,3,Utilities,2,3,1,3 2,78,0.333333333
+198,98,Hill Climb Racing,108322816,0,108183,4.5,Games,1,211,32,4.5 1,4,0.004739336
+199,99,Target,138754048,0,108131,3,Shopping,1,20,4,3 1,57,0.05
+200,0,Game of War - Fire Age,220386304,0,107916,4,Games,29,5,1,4 29,79,0.2
+201,1,slither.io,"32,516,096.00",0,107817,3.5,Games,1,34,5,3.5 1,49,0.029411765
+202,2,Cooking Fever,106808320,0,107797,4.5,Games,14,21,4,4.5 14,53,0.047619048
+203,3,Sunday Lawn,16086016,0.99,107727,3.5,Games,1,34,6,3.5 1,49,0.029411765
+204,4,Angry Birds Transformers,364130304,0,106434,4.5,Games,10,27,9,4.5 10,9,0.037037037
+205,5,?Solitaire,49839104,0,106398,4.5,Games,1,211,33,4.5 1,4,0.004739336
+206,6,Amazon Music,77778944,0,106235,4.5,Music,6,16,6,4.5 6,40,0.0625
+207,7,SCRABBLE Premium,227547136,7.99,105776,3.5,Games,6,6,2,3.5 6,68,0.166666667
+208,8,musical.ly - your video social network,173910016,0,105429,4.5,Photo & Video,21,5,2,4.5 21,56,0.2
+209,9,"Audible – audio books, original series & podcasts",81558528,0,105274,4.5,Book,5,17,4,4.5 5,50,0.058823529
+210,10,Sleep Cycle alarm clock,79315968,0,104539,4.5,Health & Fitness,13,28,9,4.5 13,10,0.035714286
+211,11,ZigZag,120344576,0,104502,4.5,Games,1,211,34,4.5 1,4,0.004739336
+212,12,Family Guy: The Quest for Stuff,131257344,0,104060,4.5,Games,19,7,2,4.5 19,13,0.142857143
+213,13,"Zappos: shop shoes & clothes, fast free shipping",70325248,0,103655,5,Shopping,1,36,6,5 1,27,0.027777778
+214,14,"Credit Karma: Free Credit Scores, Reports & Alerts",95494144,0,101679,5,Finance,1,36,7,5 1,27,0.027777778
+215,15,DoubleDown Casino & Slots  – Vegas Slot Machines!,45689856,0,101599,4,Games,6,9,2,4 6,67,0.111111111
+216,16,Action Movie FX,142996480,0,101222,4.5,Entertainment,8,16,4,4.5 8,34,0.0625
+217,17,Text Free: Free Texting + Calling + MMS,136184832,0,100477,4,Lifestyle,1,69,12,4 1,5,0.014492754
+218,18,MLB.com Home Run Derby 17,232590336,0,100035,4.5,Games,1,211,35,4.5 1,4,0.004739336
+219,19,The Calculator - Free and Easy Calculating!,84945920,0,99244,4.5,Utilities,11,29,8,4.5 11,11,0.034482759
+220,20,Shadow Fight 2,144713728,0,99206,4.5,Games,1,211,36,4.5 1,4,0.004739336
+221,21,Flick Home Run !,27196416,0.99,98851,4.5,Games,1,211,37,4.5 1,4,0.004739336
+222,22,Voice Changer Plus,40722432,0,98777,3,Entertainment,12,1,1,3 12,80,1
+223,23,iFunny :),66599936,0,98344,3.5,Entertainment,2,6,3,3.5 2,36,0.166666667
+224,24,Terraria,126036992,4.99,98036,4.5,Games,5,17,5,4.5 5,50,0.058823529
+225,25,The CW,30552064,0,97368,4.5,Entertainment,9,25,4,4.5 9,22,0.04
+226,26,War Robots,600535040,0,97122,4.5,Games,17,6,2,4.5 17,48,0.166666667
+227,27,MeetMe - Chat and Meet New People,133956608,0,97072,4,Social Networking,18,6,3,4 18,39,0.166666667
+228,28,Lumosity - Brain Training,214962176,0,96534,4.5,Education,6,16,7,4.5 6,40,0.0625
+229,29,Angry Birds Space,161200128,0,95892,4,Games,1,69,13,4 1,5,0.014492754
+230,30,Photo Collage Maker & Photo Editor - Live Collage,94266368,0,93781,4.5,Photo & Video,4,8,3,4.5 4,47,0.125
+231,31,PewDiePie's Tuber Simulator,266766336,0,90851,5,Games,17,2,1,5 17,81,0.5
+232,32,Fitbit,132913152,0,90496,4,Health & Fitness,9,5,2,4 9,42,0.2
+233,33,"We Heart It - Fashion, wallpapers, quotes, tattoos",79953920,0,90414,5,Social Networking,31,3,1,5 31,82,0.333333333
+234,34,Vine Camera,51642368,0,90355,3.5,Photo & Video,25,1,1,3.5 25,83,1
+235,35,Angry Birds HD,176164864,0,89110,4.5,Games,10,27,10,4.5 10,9,0.037037037
+236,36,"Walgreens – Pharmacy, Photo, Coupons and Shopping",169138176,0,88885,4.5,Shopping,1,211,38,4.5 1,4,0.004739336
+237,37,Google Photos - unlimited photo and video storage,160215040,0,88742,5,Photo & Video,75,1,1,5 75,84,1
+238,38,The Moron Test,45712384,0,88613,4,Entertainment,1,69,14,4 1,5,0.014492754
+239,39,Super Mario Run,194245632,0,87958,2.5,Games,11,2,1,2.5 11,85,0.5
+240,40,Tap Titans,393954304,0,87898,4.5,Games,18,15,4,4.5 18,3,0.066666667
+241,41,Scribblenauts Remix,209452032,0.99,86127,4.5,Games,2,17,5,4.5 2,33,0.058823529
+242,42,InsTrack for Instagram - Analytics Plus More,14225408,0,85535,4.5,Social Networking,31,9,1,4.5 31,86,0.111111111
+243,43,Score! Hero,170775552,0,85395,4.5,Games,12,44,8,4.5 12,17,0.022727273
+244,44,Angry Birds Epic RPG,581533696,0,84680,4.5,Games,11,29,9,4.5 11,11,0.034482759
+245,45,Color Therapy Adult Coloring Book for Adults,135236608,0,84062,5,Book,2,2,2,5 2,44,0.5
+246,46,Hungry Shark Evolution,320535552,0,83784,4.5,Games,33,6,1,4.5 33,87,0.166666667
+247,47,SoundHound Song Search & Music Player,70516736,0,82602,4,Music,23,3,2,4 23,60,0.333333333
+248,48,Candy Blast Mania,240198656,0,81648,4.5,Games,8,16,5,4.5 8,34,0.0625
+249,49,Godus,167555072,0,81311,4.5,Games,1,211,39,4.5 1,4,0.004739336
+250,50,DIRECTV,151397376,0,81006,3.5,Entertainment,1,34,7,3.5 1,49,0.029411765
+251,51,Township,175876096,0,80801,4.5,Games,14,21,5,4.5 14,53,0.047619048
+252,52,Best Buy,180500480,0,80424,4,Shopping,2,2,2,4 2,35,0.5
+253,53,4 Pics 1 Word,131642368,0,80308,4.5,Games,1,211,40,4.5 1,4,0.004739336
+254,54,Blackbox - think outside the box,100392960,0,80058,5,Games,1,36,8,5 1,27,0.027777778
+255,55,Flipagram,84792320,0,79905,4.5,Photo & Video,36,2,2,4.5 36,29,0.5
+256,56,Zombieville USA 2,175780864,0.99,79683,4.5,Games,1,211,41,4.5 1,4,0.004739336
+257,57,"Egg, Inc.",53579776,0,79074,5,Games,1,36,9,5 1,27,0.027777778
+258,58,DEAD TRIGGER,301228032,0,78918,4.5,Games,1,211,42,4.5 1,4,0.004739336
+259,59,ABC – Watch Live TV & Stream Full Episodes,85724160,0,78890,3,Entertainment,1,20,5,3 1,57,0.05
+260,60,Block Craft 3D: Building Simulator Game For Free,93063168,0,78412,4.5,Games,9,25,5,4.5 9,22,0.04
+261,61,Trivia Crack (No Ads),247385088,2.99,77370,4.5,Games,26,3,3,4.5 26,24,0.333333333
+262,62,Solitaire by MobilityWare,49618944,4.99,76720,4.5,Games,11,29,10,4.5 11,11,0.034482759
+263,63,Daddy Long Legs,87174144,0,76622,4.5,Games,1,211,43,4.5 1,4,0.004739336
+264,64,Nyan Cat: Lost In Space,96872448,0,76392,4.5,Games,1,211,44,4.5 1,4,0.004739336
+265,65,Toy Blast,268521472,0,75822,4.5,Games,1,211,45,4.5 1,4,0.004739336
+266,66,Angry Birds Go!,499580928,0,75793,4,Games,10,9,2,4 10,77,0.111111111
+267,67,Angry Birds Seasons HD,710486016,0,75714,4,Games,1,69,15,4 1,5,0.014492754
+268,68,"Tango - Free Video Call, Voice and Chat",134848512,0,75412,4.5,Social Networking,18,15,5,4.5 18,3,0.066666667
+269,69,Covet Fashion - The Game for Dresses & Shopping,112668672,0,75034,4,Games,6,9,3,4 6,67,0.111111111
+270,70,QuizUp™,139014144,0,72989,4.5,Games,5,17,6,4.5 5,50,0.058823529
+271,71,Xbox,111777792,0,72187,4.5,Entertainment,18,15,6,4.5 18,3,0.066666667
+272,72,LinkedIn,273844224,0,71856,3.5,Social Networking,23,2,2,3.5 23,73,0.5
+273,73,TuneIn Radio Pro - MLB Audiobooks Podcasts Music,101925888,9.99,71609,4.5,Music,14,21,6,4.5 14,53,0.047619048
+274,74,Bejeweled Classic HD,151254016,0,70926,4.5,Games,5,17,7,4.5 5,50,0.058823529
+275,75,"Walmart: Free 2-Day Shipping,* Easy Store Shopping",146507776,0,70286,3,Shopping,1,20,6,3 1,57,0.05
+276,76,Angry Birds Rio HD,226899968,0,70122,4.5,Games,1,211,46,4.5 1,4,0.004739336
+277,77,Trigger Fist,144196155,0,69624,4.5,Games,1,211,47,4.5 1,4,0.004739336
+278,78,Slots - Pharaoh's Way,76591104,0,69610,4.5,Games,1,211,48,4.5 1,4,0.004739336
+279,79,Stack,115195904,0,69368,4.5,Games,1,211,49,4.5 1,4,0.004739336
+280,80,UNO ™ & Friends,131464192,0,68911,4,Games,14,5,2,4 14,43,0.2
+281,81,Bloons TD Battles,107245568,0,67861,4.5,Games,1,211,50,4.5 1,4,0.004739336
+282,82,Reddit Official App: All That's Trending and Viral,30855168,0,67560,4.5,News,1,211,51,4.5 1,4,0.004739336
+283,83,Dream League Soccer 2017,359676928,0,66004,4.5,Games,12,44,9,4.5 12,17,0.022727273
+284,84,Solitaire·,24890368,0,66002,4.5,Games,18,15,7,4.5 18,3,0.066666667
+285,85,Ace Fishing: Wild Catch,224596992,0,65831,4.5,Games,14,21,7,4.5 14,53,0.047619048
+286,86,OverDrive – Library eBooks and Audiobooks,39844864,0,65450,4,Book,18,6,4,4 18,39,0.166666667
+287,87,MY LITTLE PONY: Magic Princess Quests,107032576,0,65201,4.5,Games,13,28,10,4.5 13,10,0.035714286
+288,88,LINE: Disney Tsum Tsum,77043712,0,65155,4.5,Games,5,17,8,4.5 5,50,0.058823529
+289,89,Speedtest by Ookla,23936000,0,65016,3.5,Utilities,17,3,1,3.5 17,88,0.333333333
+290,90,ESPN Fantasy Football Baseball Basketball Hockey,25164800,0,64925,4,Sports,1,69,16,4 1,5,0.014492754
+291,91,MARVEL Spider-Man Unlimited,906462208,0,64586,4.5,Games,15,21,7,4.5 15,41,0.047619048
+292,92,Google Docs,199993344,0,64259,4.5,Productivity,69,2,1,4.5 69,89,0.5
+293,93,Call of Duty: Zombies,52821364,4.99,63943,4,Games,1,69,17,4 1,5,0.014492754
+294,94,Criminal Case,131917824,0,63291,4.5,Games,12,44,10,4.5 12,17,0.022727273
+295,95,Cut the Rope: Experiments,124532736,0.99,63272,4.5,Games,11,29,11,4.5 11,11,0.034482759
+296,96,WordBubbles!,79702016,0,62061,4.5,Games,1,211,52,4.5 1,4,0.004739336
+297,97,USA TODAY,96060416,0,61724,3.5,News,1,34,8,3.5 1,49,0.029411765
+298,98,Match™ - #1 Dating App.,101259264,0,60659,3,Social Networking,10,3,2,3 10,12,0.333333333
+299,99,Happy Wheels,38466560,0,60601,4.5,Games,1,211,53,4.5 1,4,0.004739336
+300,0,Countdown? (Event Reminders and Timer),81287168,0,60490,4,Lifestyle,22,2,1,4 22,90,0.5
+301,1,Cascade: Fun Spin and Match Puzzle Game,"98,864,128.00",0,60488,4.5,Games,7,16,8,4.5 7,20,0.0625
+302,2,Flight Pilot Simulator 3D: Flying Game For Free,142512128,0,60360,5,Games,1,36,10,5 1,27,0.027777778
+303,3,Bowling King,174499840,0,60271,4.5,Games,1,211,54,4.5 1,4,0.004739336
+304,4,Redbox,83906560,0,60236,3,Entertainment,1,20,7,3 1,57,0.05
+305,5,Skype for iPad,129096704,0,60163,4,Social Networking,32,1,1,4 32,91,1
+306,6,"CBS Sports App - Sports Scores, News, Stats, Watch",120357888,0,59639,3,Sports,1,20,8,3 1,57,0.05
+307,7,Google Drive - free online storage,185695232,0,59255,4.5,Productivity,47,1,1,4.5 47,92,1
+308,8,Gummy Drop! – A Match 3 Puzzle Game,123356160,0,59158,4.5,Games,10,27,11,4.5 10,9,0.037037037
+309,9,Phase 10 Pro - Play Your Friends!,66695168,1.99,59155,4.5,Games,1,211,55,4.5 1,4,0.004739336
+310,10,Viva™ Slots Las Vegas Classic Casino Games,167431168,0,58738,4.5,Games,1,211,56,4.5 1,4,0.004739336
+311,11,"Logos Quiz -Guess the most famous brands, new fun!",72567808,0,58640,5,Games,1,36,11,5 1,27,0.027777778
+312,12,Elevate - Brain Training and Games,196350976,0,58092,5,Education,31,3,2,5 31,82,0.333333333
+313,13,Videoshop - Video Editor,140902400,1.99,57878,4.5,Photo & Video,8,16,6,4.5 8,34,0.0625
+314,14,FOX Sports Mobile,72748032,0,57500,3,Sports,1,20,9,3 1,57,0.05
+315,15,OfferUp - Buy. Sell. Simple.,73138176,0,57348,4.5,Shopping,1,211,57,4.5 1,4,0.004739336
+316,16,Bingo!™,236914688,0,56852,4.5,Games,1,211,58,4.5 1,4,0.004739336
+317,17,Talking Tom Cat 2 for iPad,73111552,0,56399,4,Entertainment,13,8,1,4 13,93,0.125
+318,18,TripAdvisor Hotels Flights Restaurants,207907840,0,56194,4,Travel,26,2,1,4 26,94,0.5
+319,19,Hulu: Watch TV Shows & Stream the Latest Movies,99568640,0,56170,2,Entertainment,2,1,1,2 2,95,1
+320,20,Capital One Mobile,273259520,0,56110,4.5,Finance,2,17,6,4.5 2,33,0.058823529
+321,21,WordWhizzle,68079616,0,56054,4.5,Games,1,211,59,4.5 1,4,0.004739336
+322,22,NBC – Watch Now and Stream Full TV Episodes,135252992,0,55950,4,Entertainment,1,69,18,4 1,5,0.014492754
+323,23,My Boo - Virtual Pet with Mini Games for Kids,105143296,0,55783,4.5,Games,5,17,9,4.5 5,50,0.058823529
+324,24,Google Chrome – The Fast and Secure Web Browser,95385600,0,55750,3.5,Utilities,37,1,1,3.5 37,96,1
+325,25,Racing Rivals,339898368,0,55548,4,Games,8,5,1,4 8,97,0.2
+326,26,Emoji>,130970624,0,55338,4.5,Entertainment,21,5,3,4.5 21,56,0.2
+327,27,Apple Store,70782976,0,55171,3.5,Shopping,21,1,1,3.5 21,98,1
+328,28,Piano Tiles 2™(Don't Tap The White Tile 2),81668096,0,55077,4.5,Games,17,6,3,4.5 17,48,0.166666667
+329,29,Kendall and Kylie,556161024,0,55011,4.5,Games,1,211,60,4.5 1,4,0.004739336
+330,30,Shop Savvy Barcode Scanner - Price Compare & Deals,89517056,0,54630,2.5,Shopping,1,6,1,2.5 1,99,0.166666667
+331,31,My Talking Angela,398783488,0,54549,4.5,Games,13,28,11,4.5 13,10,0.035714286
+332,32,Alarm Clock HD Free - Digital Alarm Clock Display,82529280,0,54496,4.5,Utilities,12,44,11,4.5 12,17,0.022727273
+333,33,The Sims 3,430128128,6.99,54408,3.5,Games,8,2,2,3.5 8,72,0.5
+334,34,Mixgram - Picture Collage Maker - Pic Photo Editor,90218496,0,54282,4.5,Photo & Video,16,16,4,4.5 16,16,0.0625
+335,35,2016 U.S. Open Golf Championship,139545600,0,54192,4,Sports,1,69,19,4 1,5,0.014492754
+336,36,Dictionary.com Dictionary & Thesaurus for iPad,165748736,0,54175,4.5,Reference,9,25,6,4.5 9,22,0.04
+337,37,HB2 PLUS,56817664,0.99,54073,5,Games,4,1,1,5 4,100,1
+338,38,StickWars,17010688,0.99,53821,3.5,Games,1,34,9,3.5 1,49,0.029411765
+339,39,Period Tracker Lite,50169856,0,53620,4,Health & Fitness,15,2,1,4 15,101,0.5
+340,40,1010!,131249152,0,53496,4.5,Games,1,211,61,4.5 1,4,0.004739336
+341,41,NYTimes Crossword - Daily Word Puzzle Game,46880768,0,53465,3.5,Games,1,34,10,3.5 1,49,0.029411765
+342,42,Evil Apples: A Filthy Adult Card & Party Game,126050304,0,53415,4.5,Games,1,211,62,4.5 1,4,0.004739336
+343,43,WGT Golf Game by Topgolf,250150912,0,53285,4.5,Games,1,211,63,4.5 1,4,0.004739336
+344,44,Smashy Road: Wanted,200108032,0,53162,4.5,Games,1,211,64,4.5 1,4,0.004739336
+345,45,Cookie Jam,148408320,0,52831,4.5,Games,16,16,5,4.5 16,16,0.0625
+346,46,POF - Best Dating App for Conversations,59248640,0,52642,3.5,Social Networking,31,1,1,3.5 31,102,1
+347,47,"Shutterfly: Prints, Photo Books, Cards Made Easy",122315776,0,51427,4,Photo & Video,1,69,20,4 1,5,0.014492754
+348,48,"Pic Jointer – Photo Collage, Camera Effects Editor",81019904,0,51330,4.5,Photo & Video,7,16,9,4.5 7,20,0.0625
+349,49,BATTLE BEARS: Zombies!,103197675,0.99,50710,3.5,Games,1,34,11,3.5 1,49,0.029411765
+350,50,Frozen Free Fall,272471040,0,50593,4.5,Games,9,25,7,4.5 9,22,0.04
+351,51,PINK Nation,86456320,0,49816,4.5,Lifestyle,1,211,65,4.5 1,4,0.004739336
+352,52,WordWhizzle Search,83180544,0,49635,4.5,Games,1,211,66,4.5 1,4,0.004739336
+353,53,Dropbox,180804608,0,49578,3.5,Productivity,20,2,2,3.5 20,32,0.5
+354,54,Timehop,67424256,0,49510,3.5,Social Networking,1,34,12,3.5 1,49,0.029411765
+355,55,Uber,283852800,0,49466,3,Travel,41,1,1,3 41,103,1
+356,56,Weather Underground: Custom Forecast & Local Radar,99829760,0,49192,4.5,Weather,31,9,2,4.5 31,86,0.111111111
+357,57,Sonos Controller,107983872,0,48905,4.5,Music,12,44,12,4.5 12,17,0.022727273
+358,58,Citi Mobile®,281244672,0,48822,3.5,Finance,1,34,13,3.5 1,49,0.029411765
+359,59,Jelly Jump,249597952,0,48694,4.5,Games,1,211,67,4.5 1,4,0.004739336
+360,60,ABC News - US & World News + Live Video,98108416,0,48407,3,News,1,20,10,3 1,57,0.05
+361,61,Close Up Pics Quiz - Guess the Word Trivia Games,95661056,0,48032,4.5,Games,1,211,68,4.5 1,4,0.004739336
+362,62,Microsoft Word,334425088,0,47999,4.5,Productivity,33,6,2,4.5 33,87,0.166666667
+363,63,Castle Clash: Brave Squads,312680448,0,47963,4,Games,11,8,2,4 11,58,0.125
+364,64,Mahjong Journey®,161162240,0,47949,4.5,Games,11,29,12,4.5 11,11,0.034482759
+365,65,HOOKED - Chat Stories,94545920,0,47829,4.5,Book,8,16,7,4.5 8,34,0.0625
+366,66,Calculator Pro for iPad Free - Smart Calculator,89096192,0,47803,4.5,Utilities,14,21,8,4.5 14,53,0.047619048
+367,67,DIRECTV App for iPad,209462272,0,47506,3.5,Entertainment,1,34,14,3.5 1,49,0.029411765
+368,68,Alice in the Mirrors of Albion: Hidden object game,1222732800,0,47382,4,Games,7,5,2,4 7,70,0.2
+369,69,NBC Sports,129395712,0,47172,2.5,Sports,31,1,1,2.5 31,104,1
+370,70,Lyft,157950976,0,46922,4.5,Travel,1,211,69,4.5 1,4,0.004739336
+371,71,Super Stickman Golf 2,96925696,0,46859,4.5,Games,1,211,70,4.5 1,4,0.004739336
+372,72,Gangstar Vegas,2088777728,0,46705,4.5,Games,13,28,12,4.5 13,10,0.035714286
+373,73,Seekers Notes: Hidden Mystery,137282560,0,46384,4.5,Games,7,16,10,4.5 7,20,0.0625
+374,74,Fit Brains Trainer,188902400,0,46363,4.5,Education,9,25,8,4.5 9,22,0.04
+375,75,NOAA Weather Radar - Weather Forecast & HD Radar,108172288,0,45696,4.5,Weather,12,44,13,4.5 12,17,0.022727273
+376,76,Tricky Test 2™: Genius Brain?,134669312,0,45578,5,Games,1,36,12,5 1,27,0.027777778
+377,77,Slayin,22982656,0.99,45574,4.5,Games,1,211,71,4.5 1,4,0.004739336
+378,78,Color Pop Effects - Photo Editor & Picture Editing,78735360,0,45320,4.5,Photo & Video,1,211,72,4.5 1,4,0.004739336
+379,79,Modern Combat 5 : The Multiplayer eSports Shooter,1271361536,0,45270,4.5,Games,15,21,8,4.5 15,41,0.047619048
+380,80,Gardenscapes - New Acres,195908608,0,45227,4,Games,10,9,3,4 10,77,0.111111111
+381,81,Ski Safari,161255424,0.99,45121,5,Games,1,36,13,5 1,27,0.027777778
+382,82,Lane Splitter,106458112,0.99,44567,4.5,Games,1,211,73,4.5 1,4,0.004739336
+383,83,"Ibotta: Cash Back App, Grocery Coupons & Shopping",192774144,0,44313,4.5,Shopping,1,211,74,4.5 1,4,0.004739336
+384,84,Wooden Block Puzzle - Wood jigsaw fit 1010 matrix,50578432,0,44237,4.5,Games,1,211,75,4.5 1,4,0.004739336
+385,85,"Find My Family, Friends & iPhone - Life360 Locator",154507264,0,43877,4.5,Social Networking,13,28,13,4.5 13,10,0.035714286
+386,86,CSR Classics,1080938496,0,43770,4.5,Games,5,17,10,4.5 5,50,0.058823529
+387,87,NBA,112074752,0,43682,3.5,Sports,1,34,15,3.5 1,49,0.029411765
+388,88,Amazon Prime Video,69435392,0,43667,4,Entertainment,3,5,1,4 3,105,0.2
+389,89,Soccer Stars™,67262464,0,43216,4.5,Games,9,25,9,4.5 9,22,0.04
+390,90,Wells Fargo Mobile,57328640,0,43064,3,Finance,2,3,2,3 2,78,0.333333333
+391,91,Flippy Bottle Extreme! - Marker Flip Tricky 2K16,143591424,0,42435,4.5,Games,1,211,76,4.5 1,4,0.004739336
+392,92,Hangman.,4765696,0,42316,3,Games,1,20,11,3 1,57,0.05
+393,93,Bloons TD 5,113020928,2.99,42078,4.5,Games,15,21,9,4.5 15,41,0.047619048
+394,94,Billionaire – Business Capitalist Tycoon!,83843072,0,42058,4.5,Games,1,211,77,4.5 1,4,0.004739336
+395,95,World of Tanks Blitz,2952593408,0,41729,4.5,Games,18,15,8,4.5 18,3,0.066666667
+396,96,Fieldrunners,66872320,2.99,41633,4,Games,1,69,21,4 1,5,0.014492754
+397,97,Super Stickman Golf,88879104,2.99,41446,4.5,Games,1,211,78,4.5 1,4,0.004739336
+398,98,Pearl's Peril - Hidden Object Adventures,278532096,0,41428,4.5,Games,14,21,9,4.5 14,53,0.047619048
+399,99,Real Steel World Robot Boxing,935366656,0,41277,4.5,Games,10,27,12,4.5 10,9,0.037037037
+400,0,Blitz Brigade: Multiplayer FPS shooter online!,1024388096,0,41266,4.5,Games,11,29,13,4.5 11,11,0.034482759
+401,1,Panda Pop,"263,766,016.00",0,41214,4.5,Games,1,211,79,4.5 1,4,0.004739336
+402,2,The Sandbox - Building & Crafting a Pixel World!,171482112,0,41108,4.5,Games,45,2,2,4.5 45,7,0.5
+403,3,Disney Emoji Blitz,257001472,0,41036,4.5,Games,10,27,13,4.5 10,9,0.037037037
+404,4,NBA LIVE Mobile Basketball,139769856,0,40619,4,Games,10,9,4,4 10,77,0.111111111
+405,5,Cat Physics,14824448,1.99,40552,4.5,Games,1,211,80,4.5 1,4,0.004739336
+406,6,Photo Grid - photo collage maker & photo editor,112073728,0,40531,4.5,Photo & Video,22,4,1,4.5 22,106,0.25
+407,7,YAHTZEE® With Buddies: The Classic Dice Game,420385792,0,40446,4,Games,1,69,22,4 1,5,0.014492754
+408,8,Jigsaw Puzzle Collection HD,86220800,0,40227,4.5,Games,2,17,7,4.5 2,33,0.058823529
+409,9,"Whisper - Share, Express, Meet",98764800,0,39819,4,Social Networking,6,9,4,4 6,67,0.111111111
+410,10,iSwap Faces LITE,30796800,0,39722,3,Photo & Video,1,20,12,3 1,57,0.05
+411,11,SCRABBLE Premium for iPad,229992448,9.99,39678,3.5,Games,6,6,3,3.5 6,68,0.166666667
+412,12,ESPN Tournament Challenge,69057536,0,39642,4,Sports,1,69,23,4 1,5,0.014492754
+413,13,Microsoft OneNote,233533440,0,39638,4.5,Productivity,33,6,3,4.5 33,87,0.166666667
+414,14,Angry Birds Space HD,171300864,0,39502,4,Games,1,69,24,4 1,5,0.014492754
+415,15,"MOLDIV - Photo Editor, Collage & Beauty Camera",120056832,0,39501,4.5,Photo & Video,18,15,9,4.5 18,3,0.066666667
+416,16,Photo Editor by Aviary,36269056,0,39501,4.5,Photo & Video,23,1,1,4.5 23,107,1
+417,17,CBS Full Episodes and Live TV,93207552,0,39436,2.5,Entertainment,1,6,2,2.5 1,99,0.166666667
+418,18,FOX NOW - Watch Full Episodes and Stream Live TV,56974336,0,39391,4.5,Entertainment,1,211,81,4.5 1,4,0.004739336
+419,19,Fishdom,181924864,0,39217,4.5,Games,12,44,14,4.5 12,17,0.022727273
+420,20,Indeed Job Search,3691520,0,38681,4,Business,28,2,1,4 28,108,0.5
+421,21,Disney Crossy Road,187282432,0,38571,4.5,Games,10,27,14,4.5 10,9,0.037037037
+422,22,Camera Plus: For Macro Photos & Remote Photography,101181440,0.99,38533,2.5,Photo & Video,11,2,2,2.5 11,85,0.5
+423,23,letgo: Buy & Sell Second Hand Stuff,109915136,0,38424,4.5,Shopping,16,16,6,4.5 16,16,0.0625
+424,24,Zombie Frontier 3 – Top Zombie Shooting Game,132756480,0,38159,4.5,Games,1,211,82,4.5 1,4,0.004739336
+425,25,Lep's World Free - platformer games,60937216,0,38075,4.5,Games,19,7,3,4.5 19,13,0.142857143
+426,26,Bitmoji - Your Personal Emoji,105198592,0,37972,4.5,Utilities,22,4,2,4.5 22,106,0.25
+427,27,Infinity Blade III,3013255168,0.99,37673,4,Games,18,6,5,4 18,39,0.166666667
+428,28,Best Fiends,271392768,0,37584,4.5,Games,1,211,83,4.5 1,4,0.004739336
+429,29,2016 US Open Tennis Championships,77700096,0,37522,4,Sports,1,69,25,4 1,5,0.014492754
+430,30,Hidden City®: Mystery of Shadows,103477248,0,37304,4.5,Games,11,29,14,4.5 11,11,0.034482759
+431,31,Flick Kick Field Goal,75612160,1.99,36946,4.5,Games,3,10,4,4.5 3,21,0.1
+432,32,Calculator‰,16766976,0,36879,4.5,Utilities,31,9,3,4.5 31,86,0.111111111
+433,33,The Room Two,460077056,1.99,36809,5,Games,1,36,14,5 1,27,0.027777778
+434,34,Unison League,71931904,0,36414,4.5,Games,1,211,84,4.5 1,4,0.004739336
+435,35,Hangouts,94750720,0,36404,4,Social Networking,34,2,1,4 34,109,0.5
+436,36,Gin Rummy Plus - Multiplayer Online Card Game,178644992,0,36355,5,Games,1,36,15,5 1,27,0.027777778
+437,37,Hotel Dash Deluxe,50085888,0.99,36190,4.5,Games,1,211,85,4.5 1,4,0.004739336
+438,38,CVS Pharmacy,129167360,0,35981,4,Shopping,1,69,26,4 1,5,0.014492754
+439,39,Cartoon Wars,13216994,0.99,35930,3.5,Games,1,34,16,3.5 1,49,0.029411765
+440,40,Flashlight ?,14336000,0,35769,4.5,Utilities,1,211,86,4.5 1,4,0.004739336
+441,41,Doodle God™,121715712,1.99,35759,4.5,Games,13,28,14,4.5 13,10,0.035714286
+442,42,Touchgrind,55205888,4.99,35735,4,Games,0,1,1,4 0,110,1
+443,43,Angry Birds POP! - Bubble Shooter,148629504,0,35711,4.5,Games,12,44,15,4.5 12,17,0.022727273
+444,44,Weather Live Free - Weather Forecast & Alerts,101524480,0,35702,4.5,Weather,16,16,7,4.5 16,16,0.0625
+445,45,Timberman,72761344,0,35587,4.5,Games,1,211,87,4.5 1,4,0.004739336
+446,46,Yu-Gi-Oh! Duel Links,185152512,0,35570,5,Games,11,6,3,5 11,15,0.166666667
+447,47,ClassDojo,80195584,0,35440,4.5,Education,55,1,1,4.5 55,111,1
+448,48,Gravity Guy,22577152,0.99,35161,4.5,Games,1,211,88,4.5 1,4,0.004739336
+449,49,Multiplayer for Minecraft PE,33418240,2.99,35109,4,Games,1,69,27,4 1,5,0.014492754
+450,50,Sally's Spa,431771648,2.99,35074,4.5,Games,6,16,8,4.5 6,40,0.0625
+451,51,Fishing Kings Free+,610881536,0,35058,4.5,Games,12,44,16,4.5 12,17,0.022727273
+452,52,Tabs & Chords by Ultimate Guitar - learn and play,103049216,2.99,35045,4.5,Music,6,16,9,4.5 6,40,0.0625
+453,53,Need for Speed™ No Limits,1085844480,0,34998,4.5,Games,12,44,17,4.5 12,17,0.022727273
+454,54,Goat Simulator,436621312,4.99,34819,4.5,Games,1,211,89,4.5 1,4,0.004739336
+455,55,Hearthstone,2405958656,0,34694,4,Games,12,2,1,4 12,112,0.5
+456,56,LINE PLAY - Your Avatar World,108691456,0,34677,4.5,Social Networking,6,16,10,4.5 6,40,0.0625
+457,57,"Photo Lab: Picture Editor, effects & fun face app",102964224,0,34585,4.5,Photo & Video,10,27,15,4.5 10,9,0.037037037
+458,58,WeChat,182624256,0,34584,4.5,Social Networking,21,5,4,4.5 21,56,0.2
+459,59,Victoria’s Secret – The Sexiest Bras & Lingerie,60976128,0,34507,3.5,Shopping,1,34,17,3.5 1,49,0.029411765
+460,60,"Badoo - Meet New People, Chat, Socialize.",157625344,0,34428,4.5,Social Networking,30,5,2,4.5 30,64,0.2
+461,61,Chase Mobile,34950144,0,34322,4.5,Finance,1,211,90,4.5 1,4,0.004739336
+462,62,Angry Birds Star Wars,177338368,0,34138,4.5,Games,1,211,91,4.5 1,4,0.004739336
+463,63,Dragon Mania Legends: Dragon Breeding Game,122903552,0,34039,4.5,Games,15,21,10,4.5 15,41,0.047619048
+464,64,Nike+ Training Club - Workouts & Fitness Plans,140367872,0,33969,3.5,Health & Fitness,17,3,2,3.5 17,88,0.333333333
+465,65,Rookie Cam - Photo Editor & Filter Camera,110953472,0,33921,4.5,Photo & Video,18,15,10,4.5 18,3,0.066666667
+466,66,iSlash,27619328,0.99,33868,4.5,Games,1,211,92,4.5 1,4,0.004739336
+467,67,Hill Climb Racing 2,120797184,0,33854,4.5,Games,1,211,93,4.5 1,4,0.004739336
+468,68,Cooking Dash™,154318848,0,33808,4,Games,11,8,3,4 11,58,0.125
+469,69,Angry Birds Star Wars II,226834432,0,33724,4.5,Games,1,211,94,4.5 1,4,0.004739336
+470,70,Choices: Stories You Play,108666880,0,33698,4.5,Games,1,211,95,4.5 1,4,0.004739336
+471,71,White Noise,44129280,0.99,33426,4,Health & Fitness,3,5,2,4 3,105,0.2
+472,72,Egg!,323473408,0,33407,4.5,Games,11,29,15,4.5 11,11,0.034482759
+473,73,Mr Jump,66228224,0,33282,4.5,Games,14,21,10,4.5 14,53,0.047619048
+474,74,Zombieville USA,27962441,0.99,32988,4,Games,1,69,28,4 1,5,0.014492754
+475,75,NBC News,52951040,0,32881,3.5,News,1,34,18,3.5 1,49,0.029411765
+476,76,Microsoft Outlook - email and calendar,185139200,0,32807,3.5,Productivity,58,1,1,3.5 58,113,1
+477,77,Talking Angela for iPad,76846080,0,32763,3.5,Entertainment,13,3,1,3.5 13,114,0.333333333
+478,78,I Am T-Pain 2.0,20542280,2.99,32650,3.5,Music,1,34,19,3.5 1,49,0.029411765
+479,79,FotoRus -Camera & Photo Editor & Pic Collage Maker,119500800,0,32558,5,Photo & Video,3,5,1,5 3,115,0.2
+480,80,Grand Theft Auto: San Andreas,2060416000,6.99,32533,4,Games,7,5,3,4 7,70,0.2
+481,81,Jenga,97562624,0,32527,4.5,Games,1,211,96,4.5 1,4,0.004739336
+482,82,Hotspot Shield Free VPN Proxy & Wi-Fi Privacy,72476672,0,32499,4.5,Productivity,11,29,16,4.5 11,11,0.034482759
+483,83,Into the Dead,171828224,0,32492,4.5,Games,14,21,11,4.5 14,53,0.047619048
+484,84,Candy Crush Jelly Saga,196369408,0,32395,4,Games,6,9,5,4 6,67,0.111111111
+485,85,HotelTonight - Great Deals on Last Minute Hotels,79332352,0,32341,4.5,Travel,6,16,11,4.5 6,40,0.0625
+486,86,Camera+,89187328,1.99,32338,4,Photo & Video,10,9,5,4 10,77,0.111111111
+487,87,Solitaire TriPeaks: Classic Card Game,149481472,0,32215,4.5,Games,1,211,97,4.5 1,4,0.004739336
+488,88,Arrow Ambush,25895936,0,32020,5,Games,1,36,16,5 1,27,0.027777778
+489,89,Fun Run 2 - Multiplayer Race,126603264,0,31981,4.5,Games,1,211,98,4.5 1,4,0.004739336
+490,90,Scanner Pro - PDF document scanner app with OCR,101346304,3.99,31912,4.5,Business,9,25,10,4.5 9,22,0.04
+491,91,Stick Hero,28680192,0,31727,4.5,Games,1,211,99,4.5 1,4,0.004739336
+492,92,Crash Bandicoot Nitro Kart 3D,10735026,2.99,31456,4,Games,1,69,29,4 1,5,0.014492754
+493,93,Zombie Tsunami,115895296,0,31311,4.5,Games,14,21,12,4.5 14,53,0.047619048
+494,94,Hotels & Vacation Rentals by Booking.com,105609216,0,31261,4.5,Travel,40,1,1,4.5 40,116,1
+495,95,Neko Atsume: Kitty Collector,44166144,0,31219,4.5,Games,2,17,8,4.5 2,33,0.058823529
+496,96,Recolor - Coloring Book,68480000,0,31180,4.5,Entertainment,4,8,4,4.5 4,47,0.125
+497,97,Talking Ben the Dog for iPad,78565376,0,31116,4,Entertainment,13,8,2,4 13,93,0.125
+498,98,100 Balls,23143424,0,30967,4.5,Games,1,211,100,4.5 1,4,0.004739336
+499,99,Bandsintown Concerts,80923648,0,30845,4.5,Music,7,16,11,4.5 7,20,0.0625
+500,0,Lep's World Plus - super best platformer games,42897408,0.99,30830,4.5,Games,18,15,11,4.5 18,3,0.066666667
+501,1,Crazy Kitchen,"196,248,576.00",0,30704,5,Games,1,36,17,5 1,27,0.027777778
+502,2,Rolling Sky,138529792,0,30670,4.5,Games,12,44,18,4.5 12,17,0.022727273
+503,3,Southwest Airlines,88773632,0,30552,3,Travel,1,20,13,3 1,57,0.05
+504,4,"Etsy: Shop Handmade, Vintage & Creative Goods",120922112,0,30434,4.5,Shopping,7,16,12,4.5 7,20,0.0625
+505,5,WWE Immortals,2245948416,0,29918,4.5,Games,12,44,19,4.5 12,17,0.022727273
+506,6,World Chef: Restaurant & Cooking Game,136355840,0,29886,4.5,Games,12,44,20,4.5 12,17,0.022727273
+507,7,Dog Simulator 2015,195235840,0,29817,4.5,Games,11,29,17,4.5 11,11,0.034482759
+508,8,Legendary Wars,247508992,0.99,29739,4.5,Games,1,211,101,4.5 1,4,0.004739336
+509,9,Color Splash,28135424,0.99,29554,4,Photo & Video,3,5,3,4 3,105,0.2
+510,10,Twist,140345344,0,29548,4,Games,1,69,30,4 1,5,0.014492754
+511,11,A Dark Room,26759168,0.99,29540,4.5,Games,1,211,102,4.5 1,4,0.004739336
+512,12,Talking Tom Cat for iPad,75417600,0,29492,3.5,Entertainment,13,3,2,3.5 13,114,0.333333333
+513,13,Blossom Blast Saga - Fun Flower Match & Grow Game,70504448,0,29475,4.5,Games,1,211,103,4.5 1,4,0.004739336
+514,14,Splashtop Personal - Remote Desktop,55986176,4.99,29376,4.5,Business,11,29,18,4.5 11,11,0.034482759
+515,15,"Documents 6 - File manager, PDF reader and browser",107259904,0,29110,4.5,Productivity,9,25,11,4.5 9,22,0.04
+516,16,"HuffPost - News, Politics & Entertainment",110420992,0,29107,3,News,10,3,3,3 10,12,0.333333333
+517,17,Trials Frontier,253294592,0,29090,4.5,Games,11,29,19,4.5 11,11,0.034482759
+518,18,PicsArt Photo Studio: Collage Maker & Pic Editor,124726272,0,29078,4.5,Photo & Video,21,5,5,4.5 21,56,0.2
+519,19,Megapolis,136165376,0,28902,4.5,Games,10,27,16,4.5 10,9,0.037037037
+520,20,Extreme Car Driving Simulator Free,170371072,0,28900,4.5,Games,1,211,104,4.5 1,4,0.004739336
+521,21,Pop the Lock,39330816,0,28754,4.5,Games,1,211,105,4.5 1,4,0.004739336
+522,22,Rat On A Skateboard,9458688,1.99,28672,4.5,Games,1,211,106,4.5 1,4,0.004739336
+523,23,Quik – GoPro Video Editor to edit clips with music,211343360,0,28654,4.5,Photo & Video,15,21,11,4.5 15,41,0.047619048
+524,24,Followers + for Instagram - Follower Analytics,17986560,0,28633,4,Social Networking,29,5,2,4 29,79,0.2
+525,25,"Karaoke - Sing Karaoke, Unlimited Songs!",95711232,0,28606,4.5,Music,19,7,4,4.5 19,13,0.142857143
+526,26,YouTube Kids,119236608,0,28560,4.5,Entertainment,34,2,2,4.5 34,61,0.5
+527,27,Block! Hexa Puzzle,132425728,0,28524,4.5,Games,1,211,107,4.5 1,4,0.004739336
+528,28,"Weather Live - Weather Forecast, Radar and Alerts",57539584,4.99,28497,4.5,Weather,20,5,1,4.5 20,117,0.2
+529,29,Yoga Studio,162386944,4.99,28439,5,Health & Fitness,1,36,18,5 1,27,0.027777778
+530,30,TurboScan™ Pro - document & receipt scanner: scan multiple pages and photos to PDF,8821760,4.99,28388,5,Business,9,5,2,5 9,25,0.2
+531,31,Dude Perfect 2,103986176,0,28361,4.5,Games,6,16,12,4.5 6,40,0.0625
+532,32,Bloons TD 5 HD,217499648,2.99,28341,4.5,Games,15,21,12,4.5 15,41,0.047619048
+533,33,GroupMe,66864128,0,28260,4.5,Social Networking,14,21,13,4.5 14,53,0.047619048
+534,34,Basketball Stars™,141687808,0,28216,4,Games,8,5,2,4 8,97,0.2
+535,35,Splice - Video Editor + Movie Maker by GoPro,123070464,0,28189,4.5,Photo & Video,22,4,3,4.5 22,106,0.25
+536,36,FINAL FANTASY BRAVE EXVIUS,108917760,0,28187,4.5,Games,1,211,108,4.5 1,4,0.004739336
+537,37,Doodle Jump FREE - BE WARNED: Insanely addictive,63676416,0,28153,4,Games,1,69,31,4 1,5,0.014492754
+538,38,NOAA Radar Pro – Weather Alerts & Forecast,82765824,3.99,28032,4.5,Weather,12,44,21,4.5 12,17,0.022727273
+539,39,Truecaller - Spam Identification & Block,84406272,0,27791,4.5,Utilities,30,5,3,4.5 30,64,0.2
+540,40,Browser and File Manager for Documents,42198016,0,27750,5,Utilities,5,4,3,5 5,19,0.25
+541,41,Batman: Arkham Origins,910774272,0,27738,4.5,Games,1,211,109,4.5 1,4,0.004739336
+542,42,Tom's Love Letters,29392896,0,27711,4,Entertainment,13,8,3,4 13,93,0.125
+543,43,Marco Polo Video Walkie Talkie,122692608,0,27662,4.5,Social Networking,1,211,110,4.5 1,4,0.004739336
+544,44,Temple Run: Brave,130115584,1.99,27593,4,Games,1,69,32,4 1,5,0.014492754
+545,45,Make It Rain: The Love of Money,169664512,0,27556,4.5,Games,31,9,4,4.5 31,86,0.111111111
+546,46,Plant Nanny - Water Reminder with Cute Plants,74738688,0,27421,4.5,Health & Fitness,12,44,22,4.5 12,17,0.022727273
+547,47,Five Nights at Freddy's,49946624,2.99,27388,4.5,Games,1,211,111,4.5 1,4,0.004739336
+548,48,NFL,131428352,0,27317,2.5,Sports,1,6,3,2.5 1,99,0.166666667
+549,49,Cops N Robbers (FPS) - Block Survival Multiplayer,467697664,0,27122,4.5,Games,1,211,112,4.5 1,4,0.004739336
+550,50,Animal Jam - Play Wild!,620323840,0,26990,4.5,Games,5,17,11,4.5 5,50,0.058823529
+551,51,Bike Race Pro - Top Motorcycle Racing Game,119231488,0.99,26881,4.5,Games,9,25,12,4.5 9,22,0.04
+552,52,Google Translate,65281024,0,26786,3.5,Reference,59,1,1,3.5 59,118,1
+553,53,Trenches,37340259,0.99,26732,4,Games,1,69,33,4 1,5,0.014492754
+554,54,"Flashlight for iPhone , iPod and iPad",64041984,0,26697,4.5,Utilities,1,211,113,4.5 1,4,0.004739336
+555,55,Driving School 2016,293660672,0,26685,4.5,Games,1,211,114,4.5 1,4,0.004739336
+556,56,Grand Theft Auto III,726392832,4.99,26547,4,Games,7,5,4,4 7,70,0.2
+557,57,MONOPOLY Game,194386944,0.99,26482,3.5,Games,6,6,4,3.5 6,68,0.166666667
+558,58,Eden - World Builder,122429440,0.99,26419,4,Games,1,69,34,4 1,5,0.014492754
+559,59,Gilt,148201472,0,26353,3.5,Shopping,2,6,4,3.5 2,36,0.166666667
+560,60,Akinator the Genie,93021184,1.99,26333,4.5,Entertainment,14,21,14,4.5 14,53,0.047619048
+561,61,My Mixtapez Music,84864000,0,26286,4.5,Music,1,211,115,4.5 1,4,0.004739336
+562,62,HBO GO,41109504,0,26278,3,Entertainment,1,20,14,3 1,57,0.05
+563,63,Bad Piggies,260106240,0,26259,4.5,Games,1,211,116,4.5 1,4,0.004739336
+564,64,Sing Karaoke Songs Unlimited with StarMaker,91267072,0,26227,4,Music,14,5,3,4 14,43,0.2
+565,65,FreePrints – Photos Delivered,112790528,0,26060,5,Photo & Video,1,36,19,5 1,27,0.027777778
+566,66,DoorDash - Food Delivery,100554752,0,25947,4.5,Food & Drink,1,211,117,4.5 1,4,0.004739336
+567,67,SMILE Inc.,137533440,0,25859,5,Games,1,36,20,5 1,27,0.027777778
+568,68,Tap Sports Baseball 2016,178905088,0,25834,4.5,Games,1,211,118,4.5 1,4,0.004739336
+569,69,War Dragons,137094144,0,25834,4.5,Games,12,44,23,4.5 12,17,0.022727273
+570,70,Looney Tunes Dash!,179526656,0,25806,4.5,Games,16,16,8,4.5 16,16,0.0625
+571,71,N.O.V.A. 3: Freedom Edition - Near Orbit Vanguard Alliance game,1400971264,0,25716,4.5,Games,12,44,24,4.5 12,17,0.022727273
+572,72,Triller - Music Video & Film Maker,87287808,0,25683,5,Photo & Video,1,36,21,5 1,27,0.027777778
+573,73,Rayman Jungle Run,78690304,2.99,25517,4.5,Games,8,16,8,4.5 8,34,0.0625
+574,74,Living Earth - Clock & Weather,169009152,2.99,25475,4.5,Utilities,11,29,20,4.5 11,11,0.034482759
+575,75,Ringtones for iPhone & Ringtone Maker,109270016,0,25403,4.5,Music,9,25,13,4.5 9,22,0.04
+576,76,Musi - Unlimited Music For YouTube,16686080,0,25193,4.5,Music,2,17,9,4.5 2,33,0.058823529
+577,77,Royal Revolt 2 – Defend Your Castle,146573312,0,25152,4.5,Games,17,6,4,4.5 17,48,0.166666667
+578,78,Disco Zoo,116933632,0,24999,4.5,Games,1,211,119,4.5 1,4,0.004739336
+579,79,Mobile Strike,256203776,0,24935,3.5,Games,29,2,2,3.5 29,1,0.5
+580,80,Monument Valley,673243136,3.99,24909,4.5,Games,1,211,120,4.5 1,4,0.004739336
+581,81,Real Steel,968384512,0.99,24880,4.5,Games,8,16,9,4.5 8,34,0.0625
+582,82,Angry Birds Blast,129589248,0,24878,4.5,Games,12,44,25,4.5 12,17,0.022727273
+583,83,Turbo Dismount®,317992960,0,24808,4.5,Games,1,211,121,4.5 1,4,0.004739336
+584,84,Tank War - Geometry Go Shot Color Dot.IO,32032768,0,24760,4.5,Games,31,9,5,4.5 31,86,0.111111111
+585,85,Flashlight ?,37967872,0,24744,4.5,Business,11,29,21,4.5 11,11,0.034482759
+586,86,Google Sheets,292418560,0,24602,4.5,Productivity,69,2,2,4.5 69,89,0.5
+587,87,5-0 Radio Pro Police Scanner (Extra Feeds),49594368,3.99,24553,4,News,26,2,2,4 26,94,0.5
+588,88,Survivors: the Quest®,102812672,0,24547,4,Games,11,8,4,4 11,58,0.125
+589,89,Faded - Photo Editor,118618112,1.99,24530,4.5,Photo & Video,5,17,12,4.5 5,50,0.058823529
+590,90,Wizard of OZ: Magic Match,160321536,0,24507,4.5,Games,16,16,9,4.5 16,16,0.0625
+591,91,Microsoft Excel,323411968,0,24430,4.5,Productivity,33,6,4,4.5 33,87,0.166666667
+592,92,Where's My Perry?,126416896,2.99,24314,4.5,Games,14,21,15,4.5 14,53,0.047619048
+593,93,Osmos for iPad,41772032,4.99,24306,4.5,Games,9,25,14,4.5 9,22,0.04
+594,94,NFL Sunday Ticket,96093184,0,24258,3,Entertainment,1,20,15,3 1,57,0.05
+595,95,Mercari: Shopping Marketplace to Buy & Sell Stuff,72579072,0,24244,4,Shopping,1,69,35,4 1,5,0.014492754
+596,96,Paper.io,281393152,0,24097,4,Games,1,69,36,4 1,5,0.014492754
+597,97,Hungry Shark World,952222720,0,24057,4.5,Games,12,44,26,4.5 12,17,0.022727273
+598,98,Pigment - Coloring Book for Adults,145373184,0,23967,4.5,Entertainment,8,16,10,4.5 8,34,0.0625
+599,99,Miitomo,112008192,0,23965,4,Social Networking,9,5,3,4 9,42,0.2
+600,0,Clash of Kings - CoK,157344768,0,23910,4.5,Games,20,5,2,4.5 20,117,0.2
+601,1,Assassin's Creed Pirates,"775,233,536.00",0,23895,4.5,Games,13,28,15,4.5 13,10,0.035714286
+602,2,The Room Three,1005560832,4.99,23878,5,Games,1,36,22,5 1,27,0.027777778
+603,3,Crush the Castle,12996628,0.99,23810,3.5,Games,1,34,20,3.5 1,49,0.029411765
+604,4,Vainglory,1182578688,0,23779,4.5,Games,32,2,2,4.5 32,59,0.5
+605,5,Square Cash - Send Money for Free,90040320,0,23775,4.5,Finance,1,211,122,4.5 1,4,0.004739336
+606,6,Modern Combat 3: Fallen Nation,1978085376,6.99,23766,4.5,Games,12,44,27,4.5 12,17,0.022727273
+607,7,Words Crush: Hidden Words!,117254144,0,23735,4.5,Games,1,211,123,4.5 1,4,0.004739336
+608,8,Angry Birds Friends,190382080,0,23655,4,Games,1,69,37,4 1,5,0.014492754
+609,9,My Cafe: Recipes & Stories - World Restaurant Game,133657600,0,23556,4.5,Games,46,3,2,4.5 46,66,0.333333333
+610,10,SimSimi,31358976,0,23530,4,Social Networking,25,1,1,4 25,119,1
+611,11,Toca Hair Salon 2,99796992,2.99,23349,4.5,Education,18,15,12,4.5 18,3,0.066666667
+612,12,Design Home,173576192,0,23298,4.5,Games,1,211,124,4.5 1,4,0.004739336
+613,13,"Grindr - Gay and same sex guys chat, meet and date",80409600,0,23201,2.5,Social Networking,5,1,1,2.5 5,120,1
+614,14,100 PICS Quiz - guess the picture trivia games,67786752,0,23160,4.5,Games,7,16,13,4.5 7,20,0.0625
+615,15,Castle Crush: Epic Strategy Game,106132480,0,23148,5,Games,11,6,4,5 11,15,0.166666667
+616,16,"RainbowKey - Color keyboard themes, fonts & GIF",86156288,0,23063,4.5,Utilities,14,21,16,4.5 14,53,0.047619048
+617,17,PAC-MAN 256 - Endless Arcade Maze,145424384,0,23015,4.5,Games,11,29,22,4.5 11,11,0.034482759
+618,18,Empires & Allies,145223680,0,22902,4.5,Games,13,28,16,4.5 13,10,0.035714286
+619,19,Crazy Taxi™ City Rush,237275136,0,22877,4.5,Games,8,16,11,4.5 8,34,0.0625
+620,20,Storm Radar,93304832,0,22792,4.5,Weather,31,9,6,4.5 31,86,0.111111111
+621,21,"Shopular Coupons, Weekly Deals for Target, Walmart",52582400,0,22729,5,Shopping,1,36,23,5 1,27,0.027777778
+622,22,Angry Birds Star Wars HD,212249600,0,22674,4.5,Games,1,211,125,4.5 1,4,0.004739336
+623,23,Moto X Mayhem,21010210,0.99,22557,4,Games,1,69,38,4 1,5,0.014492754
+624,24,Dungeon Hunter 5 - Multiplayer RPG on iOS,2288456704,0,22513,4.5,Games,15,21,13,4.5 15,41,0.047619048
+625,25,Traffic Racer,132160512,0,22458,4.5,Games,16,16,10,4.5 16,16,0.0625
+626,26,Kill Shot Bravo,104240128,0,22444,4.5,Games,46,3,3,4.5 46,66,0.333333333
+627,27,iGun Pro HD - The Original Gun Application,69952512,0,22324,4.5,Games,6,16,13,4.5 6,40,0.0625
+628,28,Airbnb,243776512,0,22302,4,Travel,29,5,3,4 29,79,0.2
+629,29,Where's My Water? 2,181628928,0,22302,3.5,Games,11,1,1,3.5 11,121,1
+630,30,Offroad Legends,96497664,0.99,22281,4.5,Games,30,5,4,4.5 30,64,0.2
+631,31,Robot Unicorn Attack,52117504,0.99,22150,4,Games,1,69,39,4 1,5,0.014492754
+632,32,Sky Guide: View Stars Night or Day,175430656,2.99,22100,5,Reference,11,6,5,5 11,15,0.166666667
+633,33,Solitaire Classic Card Game™,141391872,0,22079,4.5,Games,1,211,126,4.5 1,4,0.004739336
+634,34,Amazing Thief,17489920,0,21984,4,Games,14,5,4,4 14,43,0.2
+635,35,Vlogger Go Viral - Clicker Game & Vlog Simulator,100562944,0,21977,5,Games,7,1,1,5 7,122,1
+636,36,Inside Out Thought Bubbles,164248576,0,21881,4.5,Games,9,25,15,4.5 9,22,0.04
+637,37,Capital One for iPad,92510208,0,21858,4.5,Finance,1,211,127,4.5 1,4,0.004739336
+638,38,MLB.com At Bat,91044864,0,21830,3.5,Sports,2,6,5,3.5 2,36,0.166666667
+639,39,iFart - The Original Fart Sounds App,60320768,1.99,21825,3,Entertainment,1,20,16,3 1,57,0.05
+640,40,Restaurant DASH with Gordon Ramsay,174926848,0,21804,4.5,Games,11,29,23,4.5 11,11,0.034482759
+641,41,Juice Jam,131652608,0,21733,4.5,Games,19,7,5,4.5 19,13,0.142857143
+642,42,NBA JAM by EA SPORTS™,410202112,4.99,21648,4,Games,8,5,3,4 8,97,0.2
+643,43,Line Rider iRide™,1646592,1.99,21609,3.5,Entertainment,1,34,21,3.5 1,49,0.029411765
+644,44,Jelly Splash,138738688,0,21601,4,Games,19,3,2,4 19,74,0.333333333
+645,45,Inbox by Gmail,219122688,0,21561,4.5,Productivity,63,1,1,4.5 63,123,1
+646,46,Colorfly : Coloring Book for Adults - Free Games,61465600,0,21472,4.5,Games,3,10,5,4.5 3,21,0.1
+647,47,Robot Unicorn Attack 2,106917888,0,21432,4.5,Games,6,16,14,4.5 6,40,0.0625
+648,48,Peggle Classic,223805440,0.99,21416,4.5,Games,5,17,13,4.5 5,50,0.058823529
+649,49,Gods of Olympus,116436992,0,21414,4.5,Games,12,44,28,4.5 12,17,0.022727273
+650,50,RollerCoaster Tycoon® 4 Mobile™,195613696,0,21407,3.5,Games,14,1,1,3.5 14,124,1
+651,51,Lifeline...,29690880,1.99,21347,4.5,Games,6,16,15,4.5 6,40,0.0625
+652,52,BADLAND,222380032,2.99,21325,4.5,Games,13,28,17,4.5 13,10,0.035714286
+653,53,PAC-MAN Premium,100788224,3.99,21292,4,Games,10,9,6,4 10,77,0.111111111
+654,54,Venmo,68153344,0,21090,4.5,Finance,1,211,128,4.5 1,4,0.004739336
+655,55,"Disney Channel – Watch Full Episodes, Movies & TV",132038656,0,21082,3.5,Entertainment,1,34,22,3.5 1,49,0.029411765
+656,56,MONOPOLY Bingo!,253120512,0,21025,4.5,Games,1,211,129,4.5 1,4,0.004739336
+657,57,The Walking Dead: No Man's Land,574139392,0,21016,4.5,Games,1,211,130,4.5 1,4,0.004739336
+658,58,BuzzTube - Video Player for YouTube,15563776,0,21012,4.5,Entertainment,1,211,131,4.5 1,4,0.004739336
+659,59,Talking Tom & Ben News for iPad,55250944,0,20988,4,Entertainment,13,8,4,4 13,93,0.125
+660,60,Dungeon Boss,169657344,0,20980,4.5,Games,5,17,14,4.5 5,50,0.058823529
+661,61,"The Championships, Wimbledon 2016 - Tennis Grand Slam",130394112,0,20953,4,Sports,1,69,40,4 1,5,0.014492754
+662,62,Photon Flash Player for iPad - Flash Video & Games plus Private Web Browser,35695616,4.99,20951,4,Utilities,10,9,7,4 10,77,0.111111111
+663,63,Tubex - Videos and Music for YouTube,13450240,0,20943,4,Entertainment,20,1,1,4 20,125,1
+664,64,King of Thieves,183342080,0,20911,4.5,Games,13,28,18,4.5 13,10,0.035714286
+665,65,Roll the Ball™ - slide puzzle,173849600,0,20911,4.5,Games,1,211,132,4.5 1,4,0.004739336
+666,66,MARVEL Future Fight,1350787072,0,20906,4.5,Games,15,21,14,4.5 15,41,0.047619048
+667,67,Spinny Circle,16656384,0,20812,4.5,Games,1,211,133,4.5 1,4,0.004739336
+668,68,VS. Racing 2,58599424,0,20805,4.5,Games,1,211,134,4.5 1,4,0.004739336
+669,69,Wishbone - Compare Anything,117052416,0,20649,4.5,Social Networking,1,211,135,4.5 1,4,0.004739336
+670,70,Minecraft: Story Mode,1089228800,0,20621,4,Games,1,69,41,4 1,5,0.014492754
+671,71,happn — Dating app — Find and meet your crush,78902272,0,20546,4.5,Lifestyle,14,21,17,4.5 14,53,0.047619048
+672,72,Memrise: learn languages,83949568,0,20383,5,Education,24,1,1,5 24,126,1
+673,73,Paradise Bay,322693120,0,20383,4,Games,13,8,5,4 13,93,0.125
+674,74,Dice With Buddies: Fun New Social Dice Game,409732096,2.99,20355,4.5,Games,1,211,136,4.5 1,4,0.004739336
+675,75,Peak - Brain Training,254793728,0,20322,4.5,Education,14,21,18,4.5 14,53,0.047619048
+676,76,Sugar Smash: Book of Life,128648192,0,20254,5,Games,16,2,1,5 16,127,0.5
+677,77,"DraftKings - Daily Fantasy Golf, Baseball, & More",144820224,0,20251,4.5,Sports,18,15,13,4.5 18,3,0.066666667
+678,78,Dubsmash,101078016,0,20243,4.5,Entertainment,20,5,3,4.5 20,117,0.2
+679,79,PicLab Studio - Creative Editing & Graphic Design,53941248,2.99,20200,4.5,Photo & Video,1,211,137,4.5 1,4,0.004739336
+680,80,Century City,83817472,0,20147,4.5,Games,1,211,138,4.5 1,4,0.004739336
+681,81,Blek,118883328,2.99,20144,4.5,Games,1,211,139,4.5 1,4,0.004739336
+682,82,Grand Theft Auto: Vice City,1161168896,4.99,20113,4,Games,8,5,4,4 8,97,0.2
+683,83,"Adobe Acrobat Reader: View, Create, & Convert PDFs",81007616,0,20069,4,Business,19,3,3,4 19,74,0.333333333
+684,84,Talking Ginger for iPad,79683584,0,20065,4.5,Entertainment,13,28,19,4.5 13,10,0.035714286
+685,85,Hot Shot Slots Games – Vegas Casino Slot Machines,179004416,0,20064,4.5,Games,1,211,140,4.5 1,4,0.004739336
+686,86,Canvas by Instructure,138883072,0,19981,4.5,Education,16,16,11,4.5 16,16,0.0625
+687,87,T-Mobile,65560576,0,19977,4,Productivity,1,69,42,4 1,5,0.014492754
+688,88,USAA Mobile,164382720,0,19946,4,Finance,1,69,43,4 1,5,0.014492754
+689,89,Survivalcraft,55344128,3.99,19784,4,Games,1,69,44,4 1,5,0.014492754
+690,90,Drive Ahead!,250080256,0,19776,4.5,Games,17,6,5,4.5 17,48,0.166666667
+691,91,Sonic The Hedgehog,36692992,2.99,19621,4,Games,1,69,45,4 1,5,0.014492754
+692,92,Perfect365 - Custom makeup designs and beauty tips,143038464,0,19540,4.5,Lifestyle,12,44,29,4.5 12,17,0.022727273
+693,93,Heart of Vegas Slots – Casino Slot Machine Games,96088064,0,19355,4.5,Games,1,211,141,4.5 1,4,0.004739336
+694,94,EA SPORTS™ UFC®,985080832,0,19354,4.5,Games,10,27,17,4.5 10,9,0.037037037
+695,95,LEGO® Star Wars™:  The Complete Saga,865561600,0,19340,4,Games,1,69,46,4 1,5,0.014492754
+696,96,Rat On A Scooter XL,7767040,0.99,19296,4,Games,1,69,47,4 1,5,0.014492754
+697,97,Rodeo Stampede - Sky Zoo Safari,252826624,0,19199,4.5,Games,12,44,30,4.5 12,17,0.022727273
+698,98,Racing in Car,106005504,0,19067,4,Games,1,69,48,4 1,5,0.014492754
+699,99,Bad Piggies HD,260040704,0,19018,4.5,Games,1,211,142,4.5 1,4,0.004739336
+700,0,Bingo Pop,274991104,0,18971,4,Games,1,69,49,4 1,5,0.014492754
+701,1,Fish Tycoon,"13,564,835.00",0.99,18943,3.5,Games,1,34,23,3.5 1,49,0.029411765
+702,2,Virtual Families,27746273,1.99,18920,3.5,Games,1,34,24,3.5 1,49,0.029411765
+703,3,The Impossible Quiz!,44652544,0,18884,4,Entertainment,1,69,50,4 1,5,0.014492754
+704,4,imo video calls and chat,22562816,0,18841,4,Social Networking,29,5,4,4 29,79,0.2
+705,5,Sky Gamblers: Storm Raiders,1820131328,4.99,18822,4.5,Games,10,27,18,4.5 10,9,0.037037037
+706,6,100! Block Puzzle - Color jigsaw 10x10 board game,26438656,0,18821,4.5,Games,1,211,143,4.5 1,4,0.004739336
+707,7,SpongeBob Moves In,634097664,2.99,18758,4,Games,9,5,4,4 9,42,0.2
+708,8,ABCmouse.com - Early Learning Academy,266735616,0,18749,4.5,Education,1,211,144,4.5 1,4,0.004739336
+709,9,Dawn of Titans,1213626368,0,18735,4.5,Games,16,16,12,4.5 16,16,0.0625
+710,10,Talking Tom Gold Run: Fun & Endless Running Game,202542080,0,18733,4.5,Games,13,28,20,4.5 13,10,0.035714286
+711,11,The Washington Post Classic,118980608,0,18572,4.5,News,1,211,145,4.5 1,4,0.004739336
+712,12,"RetailMeNot Shopping Deals, Coupons, Savings",133086208,0,18544,4.5,Shopping,1,211,146,4.5 1,4,0.004739336
+713,13,Threes!,93796352,2.99,18494,4.5,Games,1,211,147,4.5 1,4,0.004739336
+714,14,Freeform – watch live TV & stream full episodes,56845312,0,18492,2.5,Entertainment,1,6,4,2.5 1,99,0.166666667
+715,15,After School - Funny Anonymous School News,148799488,0,18482,4,Social Networking,1,69,51,4 1,5,0.014492754
+716,16,"Muslim Pro: Ramadan 2017 Prayer Times, Azan, Quran",100551680,0,18418,4.5,Reference,16,16,13,4.5 16,16,0.0625
+717,17,Letter Soup - Word Game,88837120,0,18358,4.5,Games,1,211,148,4.5 1,4,0.004739336
+718,18,Sudoku?,1608704,2.99,18332,4.5,Games,2,17,10,4.5 2,33,0.058823529
+719,19,Ghost Lens+Scary Photo Video Edit&Collage Maker,102500352,0,18316,5,Photo & Video,3,5,2,5 3,115,0.2
+720,20,Carnivores: Dinosaur Hunter Pro,304654336,2.99,18306,4,Games,4,2,1,4 4,128,0.5
+721,21,Reckless Getaway,123644928,0.99,18259,4.5,Games,1,211,149,4.5 1,4,0.004739336
+722,22,"Paper by FiftyThree - Sketch, Diagram, Take Notes",134009856,0,18219,4,Productivity,11,8,5,4 11,58,0.125
+723,23,AutoRap by Smule,71257088,0,18202,4,Music,12,2,2,4 12,112,0.5
+724,24,Animation Throwdown: The Quest for Cards,358231040,0,18141,4.5,Games,1,211,150,4.5 1,4,0.004739336
+725,25,Five Nights at Freddy's 2,37310464,2.99,18107,4.5,Games,1,211,151,4.5 1,4,0.004739336
+726,26,Charades!™,44654592,0,18072,4.5,Games,1,211,152,4.5 1,4,0.004739336
+727,27,Head Basketball,133572608,0,18037,4.5,Games,1,211,153,4.5 1,4,0.004739336
+728,28,Poshmark: Buy & Sell Fashion,58299392,0,18035,4.5,Shopping,1,211,154,4.5 1,4,0.004739336
+729,29,Kitchen Scramble: Cooking Game,117025792,0,17925,3.5,Games,6,6,5,3.5 6,68,0.166666667
+730,30,Whole Foods Market,137312256,0,17906,3,Shopping,1,20,17,3 1,57,0.05
+731,31,The Amazing Spider-Man,829148559,6.99,17895,4.5,Games,12,44,31,4.5 12,17,0.022727273
+732,32,Merged!,95139840,0,17867,4.5,Games,1,211,155,4.5 1,4,0.004739336
+733,33,UberEATS: Uber for Food Delivery,75443200,0,17865,4,Food & Drink,36,1,1,4 36,129,1
+734,34,Zombie Castaways,144084992,0,17865,4.5,Games,7,16,14,4.5 7,20,0.0625
+735,35,World Cup Table Tennis™,31387648,0.99,17776,4,Games,11,8,6,4 11,58,0.125
+736,36,"Quick Reposter - Repost, Regram and Reshare Photos",16826368,0,17694,4.5,Social Networking,1,211,156,4.5 1,4,0.004739336
+737,37,"Runtastic PRO Running, Jogging and Fitness Tracker",149536768,4.99,17667,4.5,Health & Fitness,15,21,15,4.5 15,41,0.047619048
+738,38,Notability,122235904,9.99,17594,4,Productivity,14,5,5,4 14,43,0.2
+739,39,New Furniture Mods - Pocket Wiki & Game Tools for Minecraft PC Edition,52959232,0,17588,4.5,Reference,2,17,11,4.5 2,33,0.058823529
+740,40,TaxCaster – Free tax refund calculator,7111680,0,17516,3.5,Finance,1,34,25,3.5 1,49,0.029411765
+741,41,"ipsy - Makeup, subscription and beauty tips",35611648,0,17489,5,Lifestyle,1,36,24,5 1,27,0.027777778
+742,42,Bruh-Button,52343808,0,17487,5,Entertainment,1,36,25,5 1,27,0.027777778
+743,43,Willy Wonka Slots: Vegas Casino Slot Machines,117741568,0,17436,4.5,Games,1,211,157,4.5 1,4,0.004739336
+744,44,MARVEL Avengers Academy,170858496,0,17376,4,Games,45,2,2,4 45,75,0.5
+745,45,X-War: Clash of Zombies,42917888,0,17254,5,Games,3,5,3,5 3,115,0.2
+746,46,Disney Magic Kingdoms,468258816,0,17213,4,Games,15,2,2,4 15,101,0.5
+747,47,Beat the Boss 2 (17+),205250560,0.99,17203,4.5,Games,15,21,16,4.5 15,41,0.047619048
+748,48,I Dig It,19853312,0.99,17190,4,Games,1,69,52,4 1,5,0.014492754
+749,49,Harry Potter: Spells,125411328,0.99,17023,4,Games,1,69,53,4 1,5,0.014492754
+750,50,Flip Diving,189799424,0,17012,4.5,Games,1,211,158,4.5 1,4,0.004739336
+751,51,"Bleacher Report: Sports news, scores, & highlights",85283840,0,16979,4.5,Sports,8,16,12,4.5 8,34,0.0625
+752,52,Swamp Attack,123780096,0,16968,4.5,Games,12,44,32,4.5 12,17,0.022727273
+753,53,Shooty Skies - Endless Arcade Flyer,221495296,0,16948,4.5,Games,22,4,4,4.5 22,106,0.25
+754,54,Wallpapers for Me - Themes & Background Images,80015360,0,16925,4.5,Entertainment,13,28,21,4.5 13,10,0.035714286
+755,55,"Warhammer 40,000: Freeblade",1425611776,0,16879,4.5,Games,12,44,33,4.5 12,17,0.022727273
+756,56,Roku,46033920,0,16867,4.5,Entertainment,1,211,159,4.5 1,4,0.004739336
+757,57,The Silent Age,1522363392,0,16852,4.5,Games,1,211,160,4.5 1,4,0.004739336
+758,58,Merriam-Webster Dictionary,155593728,0,16849,4.5,Reference,12,44,34,4.5 12,17,0.022727273
+759,59,Sworkit - Custom Workouts for Exercise & Fitness,143166464,0,16819,5,Health & Fitness,12,3,3,5 12,65,0.333333333
+760,60,Zombie Catchers,103388160,0,16805,4.5,Games,10,27,19,4.5 10,9,0.037037037
+761,61,Weibo HD,104387584,0,16772,4.5,Social Networking,3,10,6,4.5 3,21,0.1
+762,62,"Camera360 - Selfie Filter Camera, Photo Editor",161159168,0,16729,4.5,Photo & Video,12,44,35,4.5 12,17,0.022727273
+763,63,"Quizlet: Study Flashcards, Languages & Vocabulary",95381504,0,16683,4.5,Education,13,28,22,4.5 13,10,0.035714286
+764,64,"Univision Deportes: Liga MX, MLS, Fútbol En Vivo",81876992,0,16683,3.5,Sports,2,6,6,3.5 2,36,0.166666667
+765,65,The Line Zen,28614656,0,16674,4.5,Games,1,211,161,4.5 1,4,0.004739336
+766,66,Wedding Dash Deluxe,55803904,0.99,16567,4.5,Games,1,211,162,4.5 1,4,0.004739336
+767,67,MyScript Calculator - Handwriting calculator,21319680,0,16555,4.5,Productivity,11,29,24,4.5 11,11,0.034482759
+768,68,Photomath - Camera Calculator,34342912,0,16523,4.5,Education,20,5,4,4.5 20,117,0.2
+769,69,DC Legends,271538176,0,16460,4.5,Games,10,27,20,4.5 10,9,0.037037037
+770,70,FarmVille: Tropic Escape - Harvest in Paradise,204402688,0,16457,4.5,Games,15,21,17,4.5 15,41,0.047619048
+771,71,Map My Run+ - GPS Running & Workout Tracker,237913088,2.99,16434,4.5,Health & Fitness,9,25,16,4.5 9,22,0.04
+772,72,NASCAR MOBILE,70040576,0,16385,4,Sports,1,69,54,4 1,5,0.014492754
+773,73,Sonic CD,197306368,0,16358,4,Games,1,69,55,4 1,5,0.014492754
+774,74,Plants vs. Zombies™ Heroes,153967616,0,16305,4.5,Games,10,27,21,4.5 10,9,0.037037037
+775,75,"Farm Heroes Super Saga: Match, Collect and Grow!",299586560,0,16259,4.5,Games,17,6,6,4.5 17,48,0.166666667
+776,76,InstaMag - Free Pic and Photo Collage Maker,95378432,0,16221,4.5,Photo & Video,4,8,5,4.5 4,47,0.125
+777,77,"Over— Edit Photos, Add Text & Captions to Pictures",109300736,0,16221,4.5,Photo & Video,1,211,163,4.5 1,4,0.004739336
+778,78,The Walking Dead: Road to Survival - Strategy Game,151109632,0,16116,4.5,Games,12,44,36,4.5 12,17,0.022727273
+779,79,5miles: Buy and Sell Used Stuff Locally,54063104,0,16105,4.5,Shopping,8,16,13,4.5 8,34,0.0625
+780,80,Cartoon Network App – Teen Titans Go! And more!,101873664,0,15984,3,Entertainment,1,20,18,3 1,57,0.05
+781,81,"Printer Pro - Print photos, pdf and emails",98820096,6.99,15981,4.5,Productivity,9,25,17,4.5 9,22,0.04
+782,82,Disney Movies Anywhere: Watch Your Disney Movies!,81021952,0,15900,3.5,Entertainment,1,34,26,3.5 1,49,0.029411765
+783,83,Tap Tap Fish - Abyssrium,209029120,0,15876,4.5,Games,5,17,15,4.5 5,50,0.058823529
+784,84,Deemo,2219819008,1.99,15855,5,Games,1,36,26,5 1,27,0.027777778
+785,85,"NOAA Hi-Def Radar Pro -  Storm Warnings, Hurricane Tracker & Weather Forecast",27500544,1.99,15809,5,Weather,1,36,27,5 1,27,0.027777778
+786,86,iTunes U,55641088,0,15801,4,Education,34,2,2,4 34,109,0.5
+787,87,ColorArt: Coloring Book For Adults,90105856,0,15797,4.5,Entertainment,1,211,164,4.5 1,4,0.004739336
+788,88,Photo Transfer App - Easy backup of photos+videos,45182976,0,15654,4.5,Photo & Video,2,17,12,4.5 2,33,0.058823529
+789,89,Forge of Empires,138510336,0,15617,4.5,Games,20,5,5,4.5 20,117,0.2
+790,90,"InstaSize: Photo Editor, Picture Effects & Collage",99624960,0,15605,4,Photo & Video,23,3,3,4 23,60,0.333333333
+791,91,Sephora Makeup & Beauty App – Insider Tips & Style,147001344,0,15593,4.5,Shopping,1,211,165,4.5 1,4,0.004739336
+792,92,NHL,160124928,0,15554,3.5,Sports,1,34,27,3.5 1,49,0.029411765
+793,93,Block Fortress,343504896,1.99,15430,4.5,Games,1,211,166,4.5 1,4,0.004739336
+794,94,Ninja Kid Run VR: Runner & Racing Games For Free,165612544,0,15399,4.5,Games,1,211,167,4.5 1,4,0.004739336
+795,95,Teenage Mutant Ninja Turtles: Rooftop Run,149581824,3.99,15398,4,Games,7,5,5,4 7,70,0.2
+796,96,FIFA Mobile Soccer,87408640,0,15365,4,Games,17,1,1,4 17,130,1
+797,97,Cupcake Mania™,167641088,0,15336,4.5,Games,9,25,18,4.5 9,22,0.04
+798,98,Hovercraft: Takedown - Custom Combat Cars,123773952,0,15290,4.5,Games,12,44,37,4.5 12,17,0.022727273
+799,99,"PDF Expert 6: Read, annotate & edit PDF documents",123600896,9.99,15248,4.5,Productivity,9,25,19,4.5 9,22,0.04
+800,0,MyNetDiary PRO - Calorie Counter and Food Diary,83851264,3.99,15188,4.5,Health & Fitness,2,17,13,4.5 2,33,0.058823529
+801,1,Repost for Instagram,"46,076,928.00",0,15185,4.5,Social Networking,1,211,168,4.5 1,4,0.004739336
+802,2,Catan,376171520,1.99,15175,4,Games,6,9,6,4 6,67,0.111111111
+803,3,Grand Theft Auto: Chinatown Wars,878883840,4.99,15142,4,Games,6,9,7,4 6,67,0.111111111
+804,4,"Sleep Pillow Sounds: white noise, rain, ocean, fan",124150784,2.99,15116,4.5,Health & Fitness,31,9,7,4.5 31,86,0.111111111
+805,5,"Prisma: Photo Editor, Art Filters Pic Effects",76442624,0,15060,4.5,Photo & Video,2,17,14,4.5 2,33,0.058823529
+806,6,STREET FIGHTER IV,581353472,4.99,15056,4,Games,3,5,4,4 3,105,0.2
+807,7,Spinrilla - Mixtapes For Free,40071168,0,15053,4.5,Music,3,10,7,4.5 3,21,0.1
+808,8,LIMBO,135050240,4.99,15030,4.5,Games,13,28,23,4.5 13,10,0.035714286
+809,9,Flappy Golf,98557952,0,14995,4.5,Games,31,9,8,4.5 31,86,0.111111111
+810,10,Calculator HD Free,68090880,0,14986,4.5,Utilities,14,21,19,4.5 14,53,0.047619048
+811,11,MotionX GPS,56481792,1.99,14970,3.5,Navigation,1,34,28,3.5 1,49,0.029411765
+812,12,Temple Run: Oz,218399744,1.99,14912,4,Games,10,9,8,4 10,77,0.111111111
+813,13,BATTLE BEARS -1,227403527,0.99,14910,4,Games,1,69,56,4 1,5,0.014492754
+814,14,???PPS -????2??????,224617472,0,14844,4,Entertainment,3,5,5,4 3,105,0.2
+815,15,"Filterra – Photo Editor, Effects for Pictures",99465216,0,14744,4.5,Photo & Video,13,28,24,4.5 13,10,0.035714286
+816,16,Gangstar Rio: City of Saints,1820196864,6.99,14724,4.5,Games,12,44,38,4.5 12,17,0.022727273
+817,17,Live.me – Live Video Chat & Make Friends Nearby,163832832,0,14724,4.5,Social Networking,9,25,20,4.5 9,22,0.04
+818,18,Cartwheel by Target,49570816,0,14682,3.5,Shopping,1,34,29,3.5 1,49,0.029411765
+819,19,Arrow,128421888,0,14673,4.5,Games,1,211,169,4.5 1,4,0.004739336
+820,20,Osmos,33989632,2.99,14605,4.5,Games,9,25,21,4.5 9,22,0.04
+821,21,Zombie Highway 2,154164224,0,14593,4.5,Games,1,211,170,4.5 1,4,0.004739336
+822,22,Traffic Rider,244306944,0,14592,4.5,Games,18,15,14,4.5 18,3,0.066666667
+823,23,Fruit Nibblers,150988800,0,14505,4.5,Games,11,29,25,4.5 11,11,0.034482759
+824,24,Six!,112238592,0,14505,4.5,Games,1,211,171,4.5 1,4,0.004739336
+825,25,Age of Zombies™,53805056,0.99,14493,4.5,Games,1,211,172,4.5 1,4,0.004739336
+826,26,Backbreaker 2: Vengeance,83214336,0.99,14491,4.5,Games,1,211,173,4.5 1,4,0.004739336
+827,27,iTranslate Voice - Speak & Translate in Real Time,56189952,6.99,14469,4,Productivity,22,2,2,4 22,90,0.5
+828,28,Deer Hunter 2017,253903872,0,14461,4,Games,13,8,6,4 13,93,0.125
+829,29,Duet Game,87994368,2.99,14407,5,Games,14,1,1,5 14,131,1
+830,30,Nextdoor,82531328,0,14402,4.5,Social Networking,4,8,6,4.5 4,47,0.125
+831,31,Hatchi - A retro virtual pet,85693440,0.99,14381,4.5,Games,5,17,16,4.5 5,50,0.058823529
+832,32,Tank Hero,16048128,0.99,14361,4.5,Games,1,211,174,4.5 1,4,0.004739336
+833,33,Scanner911 Pro,33812480,3.99,14345,4,News,1,69,57,4 1,5,0.014492754
+834,34,Napster - Top Music & Radio,184817664,0,14268,4,Music,11,8,7,4 11,58,0.125
+835,35,Bottle Flip 2k16,38429696,0,14263,4,Games,1,69,58,4 1,5,0.014492754
+836,36,Bastion,1281059840,4.99,14247,4.5,Games,1,211,175,4.5 1,4,0.004739336
+837,37,Fieldrunners 2,89068544,2.99,14214,5,Games,1,36,28,5 1,27,0.027777778
+838,38,The Sims 3 Ambitions,444821504,4.99,14202,3.5,Games,10,1,1,3.5 10,132,1
+839,39,XFINITY Stream,136228864,0,14198,3,Entertainment,2,3,3,3 2,78,0.333333333
+840,40,YouCam Makeup: Magic Makeup Selfie Cam,133124096,0,14188,4.5,Photo & Video,16,16,14,4.5 16,16,0.0625
+841,41,Hovercraft - Build Fly Retry,107164672,0,14123,4.5,Games,11,29,26,4.5 11,11,0.034482759
+842,42,Top Eleven 2017 - Be a Soccer Manager,144414720,0,14104,4.5,Games,28,1,1,4.5 28,133,1
+843,43,Afterlight,76231680,0.99,14057,4.5,Photo & Video,1,211,176,4.5 1,4,0.004739336
+844,44,"MyRadar Pro NOAA Weather Radar, Forecasts & Storms",123718656,1.99,13915,4.5,Weather,8,16,14,4.5 8,34,0.0625
+845,45,Followers Analytics for Instagram - InstaReport,35136512,0,13914,4.5,Social Networking,8,16,15,4.5 8,34,0.0625
+846,46,FOX Sports GO,99644416,0,13898,3,Sports,1,20,19,3 1,57,0.05
+847,47,Snakeio,76058624,0,13870,4.5,Games,1,211,177,4.5 1,4,0.004739336
+848,48,WWE SuperCard,395563008,0,13842,4.5,Games,9,25,22,4.5 9,22,0.04
+849,49,94%,121039872,0,13805,4.5,Games,9,25,23,4.5 9,22,0.04
+850,50,Ugly Meter™,30441472,0.99,13741,3.5,Entertainment,1,34,30,3.5 1,49,0.029411765
+851,51,VPN Proxy Master - Unlimited WiFi security VPN,27117568,0,13674,5,Productivity,9,5,3,5 9,25,0.2
+852,52,Transformers: Earth Wars,189870080,0,13664,4.5,Games,10,27,22,4.5 10,9,0.037037037
+853,53,Slots - Huuuge Casino: Slot Machines,91105280,0,13637,4.5,Games,12,44,39,4.5 12,17,0.022727273
+854,54,edjing Mix:DJ turntable to remix and scratch music,144888832,0,13580,4.5,Music,12,44,40,4.5 12,17,0.022727273
+855,55,NCAA March Madness Live - Men's College Basketball,113078272,0,13572,3,Sports,1,20,20,3 1,57,0.05
+856,56,Blackboard Mobile Learn™,51179520,0,13567,2,Education,14,1,1,2 14,134,1
+857,57,Pokémon TCG Online,629442560,0,13559,3.5,Games,1,34,31,3.5 1,49,0.029411765
+858,58,N.O.V.A. 3 - Near Orbit Vanguard Alliance,1984958464,6.99,13503,4.5,Games,12,44,41,4.5 12,17,0.022727273
+859,59,Star Chart,28616704,0,13482,4.5,Education,8,16,16,4.5 8,34,0.0625
+860,60,Free Music - MP3 Streamer & Playlist Manager Pro,10542080,0,13443,4.5,Music,1,211,178,4.5 1,4,0.004739336
+861,61,Clue Period Tracker: Period & Ovulation Tracker,103040000,0,13436,4.5,Health & Fitness,15,21,18,4.5 15,41,0.047619048
+862,62,Period Tracker Deluxe,40216576,1.99,13350,4.5,Health & Fitness,15,21,19,4.5 15,41,0.047619048
+863,63,CPlus for Craigslist app - mobile classifieds,120219648,0,13345,5,Catalogs,1,36,29,5 1,27,0.027777778
+864,64,my KONAMI Slots - Vegas Casino Slot Machine Games,218488832,0,13345,4.5,Games,1,211,179,4.5 1,4,0.004739336
+865,65,KleptoCats,391116800,0,13300,4.5,Games,1,211,180,4.5 1,4,0.004739336
+866,66,Carnivores: Ice Age Pro,198701056,2.99,13258,4.5,Games,4,8,7,4.5 4,47,0.125
+867,67,Regal Cinemas,76895232,0,13257,4.5,Entertainment,1,211,181,4.5 1,4,0.004739336
+868,68,Card Wars - Adventure Time Card Game,1256266752,3.99,13245,3.5,Games,6,6,6,3.5 6,68,0.166666667
+869,69,Churchill Solitaire - World War Card Game,153385984,0,13241,4.5,Games,1,211,182,4.5 1,4,0.004739336
+870,70,Nick,38045696,0,13237,3.5,Entertainment,13,3,3,3.5 13,114,0.333333333
+871,71,Farm Story 2™,112607232,0,13142,4,Games,8,5,5,4 8,97,0.2
+872,72,Phoenix HD,92713984,0,13106,4.5,Games,14,21,20,4.5 14,53,0.047619048
+873,73,Block Ð¡ity Wars: game and skin export to minecraft,793368576,0,13097,4.5,Games,1,211,183,4.5 1,4,0.004739336
+874,74,Cartoon Wars 2: Heroes,42482779,0.99,13049,4.5,Games,1,211,184,4.5 1,4,0.004739336
+875,75,Free Piano app by Yokee,73091072,0,13016,4.5,Music,18,15,15,4.5 18,3,0.066666667
+876,76,MSQRD — Live Filters & Face Swap for Video Selfies,198906880,0,12982,4.5,Photo & Video,11,29,27,4.5 11,11,0.034482759
+877,77,Artisto – Video and Photo Editor with Art Filters,55673856,0,12963,5,Photo & Video,8,1,1,5 8,135,1
+878,78,Modern Combat 4: Zero Hour,2169602048,6.99,12916,4,Games,13,8,7,4 13,93,0.125
+879,79,MMX Racing,836734976,0,12854,4.5,Games,33,6,5,4.5 33,87,0.166666667
+880,80,Stack the States®,132377600,2.99,12833,4.5,Education,1,211,185,4.5 1,4,0.004739336
+881,81,Headspace,121170944,0,12819,5,Health & Fitness,1,36,30,5 1,27,0.027777778
+882,82,Geocaching®,108166144,0,12811,3.5,Navigation,22,1,1,3.5 22,136,1
+883,83,Catapult King,210625536,0.99,12799,4.5,Games,10,27,23,4.5 10,9,0.037037037
+884,84,Microsoft OneDrive – File & photo cloud storage,207656960,0,12797,4,Productivity,30,1,1,4 30,137,1
+885,85,Let's create! Pottery HD,175157248,4.99,12787,4.5,Entertainment,1,211,186,4.5 1,4,0.004739336
+886,86,"InShot Video Editor Music, No Crop, Cut",55851008,0,12779,5,Photo & Video,9,5,4,5 9,25,0.2
+887,87,"Seeds Pro For Minecraft - Server, Skins, Community",29258752,1.99,12770,4.5,Games,1,211,187,4.5 1,4,0.004739336
+888,88,Ever - Capture Your Memories,134952960,0,12755,4.5,Productivity,16,16,15,4.5 16,16,0.0625
+889,89,Airport Scanner,226961408,1.99,12701,4.5,Games,1,211,188,4.5 1,4,0.004739336
+890,90,QR Reader for iPhone,54776832,0,12683,4,Utilities,29,5,5,4 29,79,0.2
+891,91,BIG WIN Basketball,66056192,0,12669,4,Games,1,69,59,4 1,5,0.014492754
+892,92,SHEIN Shopping - Women's Clothing & Fashion,58648576,0,12663,4.5,Shopping,7,16,15,4.5 7,20,0.0625
+893,93,"Ebates: Cash Back, Coupons & Rebate Shopping App",108079104,0,12617,5,Shopping,5,4,4,5 5,19,0.25
+894,94,Layout from Instagram,9355264,0,12616,4.5,Photo & Video,27,2,2,4.5 27,6,0.5
+895,95,Scan - QR Code and Barcode Reader,10058752,1.99,12590,4.5,Utilities,14,21,21,4.5 14,53,0.047619048
+896,96,"Wayfair - Shop Furniture, Home Decor, Daily Sales",165069824,0,12578,5,Shopping,3,5,4,5 3,115,0.2
+897,97,The Trail,542597120,0,12573,4,Games,1,69,60,4 1,5,0.014492754
+898,98,Hipstamatic,114081792,2.99,12557,3.5,Photo & Video,15,1,1,3.5 15,138,1
+899,99,cute icon&wallpaper dressup - CocoPPa,65789952,0,12508,4,Lifestyle,10,9,9,4 10,77,0.111111111
+900,0,Steppy Pants,166893568,0,12506,4.5,Games,13,28,25,4.5 13,10,0.035714286
+901,1,CVS,"78,570,496.00",0,12402,4.5,Shopping,2,17,15,4.5 2,33,0.058823529
+902,2,Cut the Rope 2,141105152,1.99,12376,4.5,Games,10,27,24,4.5 10,9,0.037037037
+903,3,Doodle Army,17879270,0.99,12354,4,Games,1,69,61,4 1,5,0.014492754
+904,4,Game Dev Story,191455232,4.99,12331,4.5,Games,5,17,17,4.5 5,50,0.058823529
+905,5,Football Clicker,172334080,0,12326,4.5,Games,1,211,189,4.5 1,4,0.004739336
+906,6,LiveCollage Pro-Photo Collage Maker&Photo Editor,88022016,1.99,12319,4.5,Photo & Video,4,8,8,4.5 4,47,0.125
+907,7,SNKRS,79418368,0,12298,4.5,Shopping,1,211,190,4.5 1,4,0.004739336
+908,8,Fair Food Maker Game - Make Yummy Carnival Treats,111604736,0,12251,4,Games,1,69,62,4 1,5,0.014492754
+909,9,Tiny Wings HD,28681216,2.99,12181,4.5,Games,6,16,16,4.5 6,40,0.0625
+910,10,"ElfYourself by Office Depot, Inc.",109844480,0,12177,4,Entertainment,4,2,2,4 4,128,0.5
+911,11,Bike Baron,183046144,1.99,12162,4.5,Games,1,211,191,4.5 1,4,0.004739336
+912,12,Rick and Morty: Pocket Mortys,955524096,0,12124,4.5,Games,10,27,25,4.5 10,9,0.037037037
+913,13,CLUE Bingo,232353792,0,12123,4.5,Games,1,211,192,4.5 1,4,0.004739336
+914,14,Night Sky,596499456,0,12122,4.5,Reference,29,2,2,4.5 29,2,0.5
+915,15,Optical Inquisitor 17+,54808576,0.99,12099,5,Games,16,2,2,5 16,127,0.5
+916,16,Hop,119472128,0,12079,4.5,Games,1,211,193,4.5 1,4,0.004739336
+917,17,YouNow: Live Stream Video Chat,91615232,0,12079,3.5,Social Networking,7,1,1,3.5 7,139,1
+918,18,Solitaire ?,68179968,0,12077,5,Games,15,1,1,5 15,140,1
+919,19,WIRED Magazine,23879680,0,12074,2.5,News,1,6,5,2.5 1,99,0.166666667
+920,20,Speak & Translate ? Voice and Text Translator,78640128,0,12062,4.5,Productivity,12,44,42,4.5 12,17,0.022727273
+921,21,Extreme Fishing 2 Free,54148397,0,12002,4.5,Games,3,10,8,4.5 3,21,0.1
+922,22,AgingBooth,31869952,0,11999,4,Entertainment,1,69,63,4 1,5,0.014492754
+923,23,Face Swap App- Funny Face Changer Photo Effects,16275456,0,11977,4.5,Photo & Video,1,211,194,4.5 1,4,0.004739336
+924,24,FollowMeter for Instagram - Followers Tracking,11819008,0,11976,4.5,Social Networking,1,211,195,4.5 1,4,0.004739336
+925,25,Moments - private albums with friends and family,204382208,0,11955,4.5,Photo & Video,33,6,6,4.5 33,87,0.166666667
+926,26,Haunted Halloween Escape,15481361,0,11945,4.5,Games,0,1,1,4.5 0,141,1
+927,27,Pakka Pets Village - Build a Cute Virtual Pet Town,205014016,0,11933,4.5,Games,1,211,196,4.5 1,4,0.004739336
+928,28,Dots: A Game About Connecting,112562176,0,11900,4,Games,1,69,64,4 1,5,0.014492754
+929,29,Wheel of Fortune: Game Show Word Puzzles,245901312,0,11876,4.5,Games,1,211,197,4.5 1,4,0.004739336
+930,30,"Fooducate - Lose Weight, Eat Healthy,Get Motivated",48590848,0,11875,4.5,Health & Fitness,1,211,198,4.5 1,4,0.004739336
+931,31,Hair Color Changer - Styles Salon & Recolor Booth,33427456,0,11828,4.5,Entertainment,1,211,199,4.5 1,4,0.004739336
+932,32,Skyline Skaters,155365376,0,11785,4.5,Games,30,5,5,4.5 30,64,0.2
+933,33,Calendars 5 - Daily Planner and Task Manager,76848128,6.99,11768,4.5,Productivity,9,25,24,4.5 9,22,0.04
+934,34,Tap Tap Dash,68935680,0,11748,4.5,Games,15,21,20,4.5 15,41,0.047619048
+935,35,Scanner App - PDF Document Scan,96234496,0,11696,4.5,Business,13,28,26,4.5 13,10,0.035714286
+936,36,CBS News - Watch Free Live Breaking News,78047232,0,11691,3.5,News,1,34,32,3.5 1,49,0.029411765
+937,37,Backflip Madness,17436862,0.99,11687,4.5,Games,1,211,200,4.5 1,4,0.004739336
+938,38,Puffin Web Browser,66607104,0,11677,4,Utilities,28,2,2,4 28,108,0.5
+939,39,Talking Pierre the Parrot for iPad,60313600,0,11665,4,Entertainment,13,8,8,4 13,93,0.125
+940,40,Mobile Legends: Bang bang,187168768,0,11602,4.5,Games,9,25,25,4.5 9,22,0.04
+941,41,Word Chums,90521600,3.99,11536,5,Games,1,36,31,5 1,27,0.027777778
+942,42,Dictionary.com Dictionary & Thesaurus Premium,108836864,3.99,11530,4.5,Reference,1,211,201,4.5 1,4,0.004739336
+943,43,Peggle Blast,454746112,0,11528,4,Games,6,9,8,4 6,67,0.111111111
+944,44,Tayasui Sketches,198511616,0,11505,4.5,Productivity,15,21,21,4.5 15,41,0.047619048
+945,45,:) Sudoku +,6169600,2.99,11447,5,Games,1,36,32,5 1,27,0.027777778
+946,46,Kingdom Rush Frontiers HD,438824960,2.99,11447,5,Games,1,36,33,5 1,27,0.027777778
+947,47,LINE,212208640,0,11437,3.5,Social Networking,17,3,3,3.5 17,88,0.333333333
+948,48,Amex Mobile,105982976,0,11421,4,Finance,1,69,65,4 1,5,0.014492754
+949,49,Lep's World 3,85154816,0,11341,4.5,Games,19,7,6,4.5 19,13,0.142857143
+950,50,War Machines: 3D Multiplayer Tank Shooting Game,163080192,0,11325,5,Games,9,5,5,5 9,25,0.2
+951,51,CARROT To-Do - Talking Task List,7669760,2.99,11322,5,Productivity,1,36,34,5 1,27,0.027777778
+952,52,Dumb Ways to Die 2: The Games,104282112,0,11295,4,Games,16,4,3,4 16,23,0.25
+953,53,Flick Kick Football Legends,109421568,0,11250,4.5,Games,12,44,43,4.5 12,17,0.022727273
+954,54,Ice Rage,71846912,1.99,11190,4.5,Games,1,211,202,4.5 1,4,0.004739336
+955,55,Bridge Constructor,145968128,1.99,11187,4.5,Games,13,28,27,4.5 13,10,0.035714286
+956,56,VSCO,98576384,0,11174,3.5,Photo & Video,16,1,1,3.5 16,142,1
+957,57,iAnnotate PDF,44099584,9.99,11156,4.5,Productivity,1,211,203,4.5 1,4,0.004739336
+958,58,Spider Solitaire by MobilityWare,39446528,4.99,11154,4.5,Games,3,10,9,4.5 3,21,0.1
+959,59,Bee Brilliant,199310336,0,11151,5,Games,30,1,1,5 30,143,1
+960,60,eHarmony™ Dating App - Meet Singles,102413312,0,11124,2.5,Social Networking,1,6,6,2.5 1,99,0.166666667
+961,61,MMX Hill Dash — Off-Road Racing,202866688,0,11123,4.5,Games,1,211,204,4.5 1,4,0.004739336
+962,62,Rayman Adventures,437230592,0,11100,4,Games,16,4,4,4 16,23,0.25
+963,63,PrankDial - #1 Prank Call App,112515072,0,11091,3,Entertainment,6,1,1,3 6,144,1
+964,64,True Skate,66697216,1.99,11065,4,Games,1,69,66,4 1,5,0.014492754
+965,65,Snapimals: Discover & Snap Amazing & Cute Animals!,221279232,0,11060,4.5,Games,1,211,205,4.5 1,4,0.004739336
+966,66,"Drawing Desk - Draw, Paint, Doodle & Sketch board",116443136,0,11040,4,Productivity,11,8,8,4 11,58,0.125
+967,67,Tap Tycoon - Country vs Country,246093824,0,11034,4.5,Games,1,211,206,4.5 1,4,0.004739336
+968,68,"Retrica - Selfie Camera with Filter, Sticker & GIF",112688128,0,11021,4.5,Photo & Video,16,16,16,4.5 16,16,0.0625
+969,69,Macy's,107816960,0,11013,3.5,Shopping,1,34,33,3.5 1,49,0.029411765
+970,70,Fish Out Of Water!,72671232,0.99,11000,4.5,Games,13,28,28,4.5 13,10,0.035714286
+971,71,Microsoft PowerPoint,336831488,0,10939,4,Productivity,33,1,1,4 33,145,1
+972,72,Dictator: Outbreak,148776960,0,10871,4,Games,1,69,67,4 1,5,0.014492754
+973,73,Sunken Secrets,180488192,0,10849,4.5,Games,10,27,26,4.5 10,9,0.037037037
+974,74,Carcassonne,359192576,9.99,10846,4.5,Games,2,17,16,4.5 2,33,0.058823529
+975,75,PewDiePie: Legend of the Brofist,457690112,4.99,10828,5,Games,17,2,2,5 17,81,0.5
+976,76,Email - Fast & Secure mail for Gmail iCloud Yahoo,142936064,0,10778,4.5,Productivity,1,211,207,4.5 1,4,0.004739336
+977,77,Teenage Mutant Ninja Turtles: Legends,920238080,0,10771,4.5,Games,12,44,44,4.5 12,17,0.022727273
+978,78,"Photo Lab PRO HD: frames for pictures, face sketch",101117952,4.99,10754,4.5,Photo & Video,10,27,27,4.5 10,9,0.037037037
+979,79,Super Hexagon,33219584,2.99,10748,4.5,Games,1,211,208,4.5 1,4,0.004739336
+980,80,Pudding Monsters,35096576,0.99,10703,4.5,Games,11,29,28,4.5 11,11,0.034482759
+981,81,Rival Fire,892332032,0,10701,4.5,Games,7,16,16,4.5 7,20,0.0625
+982,82,Dots & Co: A New Puzzle Adventure,180679680,0,10693,4.5,Games,1,211,209,4.5 1,4,0.004739336
+983,83,AliExpress Shopping App,133053440,0,10647,4,Shopping,18,6,6,4 18,39,0.166666667
+984,84,Chess Pro - with coach,43033600,9.99,10619,5,Games,3,5,5,5 3,115,0.2
+985,85,VivaVideo - Best Video Editor & Photo Movie Maker,136221696,0,10618,4.5,Photo & Video,19,7,7,4.5 19,13,0.142857143
+986,86,Cover Orange 2: Journey,84934656,0.99,10604,4.5,Games,11,29,29,4.5 11,11,0.034482759
+987,87,War Tortoise,407088128,0,10555,5,Games,1,36,35,5 1,27,0.027777778
+988,88,Endless Alphabet,76482560,8.99,10534,5,Education,1,36,36,5 1,27,0.027777778
+989,89,RPG AVABEL ONLINE,135512064,0,10514,4.5,Games,2,17,17,4.5 2,33,0.058823529
+990,90,Prime Photos from Amazon,76257280,0,10511,4,Photo & Video,9,5,5,4 9,42,0.2
+991,91,Sprinkle: Water splashing fire fighting fun!,34025472,1.99,10509,4.5,Games,1,211,210,4.5 1,4,0.004739336
+992,92,Clear Vision 2,34690172,0.99,10477,4.5,Games,1,211,211,4.5 1,4,0.004739336
+993,93,PGA Championship 2016 – Baltusrol Golf Club,64147456,0,10472,3.5,Sports,1,34,34,3.5 1,49,0.029411765
+994,94,LEGO Harry Potter: Years 1-4,475697678,4.99,10463,4,Games,1,69,68,4 1,5,0.014492754
+995,95,360 Panorama,7954432,1.99,10463,4.5,Photo & Video,3,10,10,4.5 3,21,0.1
+996,96,"Fitness Buddy+ Gym Workout Exercise, Home Trainer",224675840,2.99,10386,4.5,Health & Fitness,31,9,9,4.5 31,86,0.111111111
+997,97,Catan HD,812010496,1.99,10382,4,Games,6,9,9,4 6,67,0.111111111
+998,98,5K Runner: 0 to 5K Run Trainer. Couch potato to 5K,84338688,4.99,10368,5,Health & Fitness,31,3,3,5 31,82,0.333333333
+999,99,Monster Super League,163893248,0,10368,5,Games,11,6,6,5 11,15,0.166666667
+1000,0,Hide N Seek : Mini Multiplayer Game,185019392,0,10358,4,Games,1,69,69,4 1,5,0.014492754
