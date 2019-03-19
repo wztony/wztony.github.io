@@ -9,7 +9,14 @@ window.onload = function(){
  * Global variables
  */
 var _vis;
-var colorScale = d3.scaleOrdinal(d3["schemeAccent"]);
+var colors = [
+    '#64b5f6', '#b3e5fc', '#4dd0e1', '#00838f',
+    '#c62828', '#e57373', '#f8bbd0', '#ec407a',
+    '#8e24aa', '#b39ddb', '#5c6bc0', '#283593',
+    '#80cbc4', '#c8e6c9', '#4caf50', '#8bc34a',
+    '#eeff41', '#fbc02d'];
+var colorScale = d3.scaleOrdinal()
+    .range(colors);
 const MARGINS = { top:10, right:100, bottom:60, left: 60};
 
 //we can use object initializer to create object
