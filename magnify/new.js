@@ -19,6 +19,9 @@ var colorScale = d3.scaleOrdinal()
     .range(colors);
 const MARGINS = { top:10, right:10, bottom:60, left: 60};
 
+const polyR = 7;
+const polyRScale = 2;
+
 //we can use object initializer to create object
 //or use constructor function
 
@@ -82,6 +85,13 @@ var Scatterplot = function(){
             .attr("cy", function(d){
                 return _vis.yAxisScale(d["AverageRating"]);
             })
+            .on("mouseover", function(d){
+                //d3.select(this).style("fill", "blue");
+                onMouseOver(d);
+            })
+            .on("mouseout", function(d){
+                onMouseOut(d);
+            })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
             })
@@ -120,6 +130,13 @@ var Scatterplot = function(){
             .attr("y", function(d){
                 return _vis.yAxisScale(d["AverageRating"]) - 8 + 4*d["ARL_Serial"];
             })
+            .on("mouseover", function(d){
+                //d3.select(this).style("fill", "blue");
+                onMouseOver(d);
+            })
+            .on("mouseout", function(d){
+                onMouseOut(d);
+            })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
             })
@@ -140,11 +157,18 @@ var Scatterplot = function(){
             .append("polygon")
             .attr("points", function(d){
                 return [[0,0].join(",")
-                    ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*7,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*7].join(",")
-                    ,[Math.sin(360/d.ARL_Count/2*Math.PI/180)*7,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*7].join(",")].join(" ")
+                    ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR].join(",")
+                    ,[Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR].join(",")].join(" ")
             })
             .attr("transform", function(d){
                 return "translate(" + _vis.xAxisScale(d["LanguagesSupported"]) + "," + _vis.yAxisScale(d["AverageRating"]) + ")rotate(" + 360/d["ARL_Count"]*d["ARL_Serial"] + ")"
+            })
+            .on("mouseover", function(d){
+                //d3.select(this).style("fill", "blue");
+                onMouseOver(d);
+            })
+            .on("mouseout", function(d){
+                onMouseOut(d);
             })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
@@ -185,10 +209,96 @@ function loadData(path){
     // call D3's loading function for CSV and load the data to our global variable _data
     d3.csv(path).then(function(data){
         _vis.data = data;
-        _vis.setupScale([0,80],[MARGINS.left,_vis.width-MARGINS.left],[0,5],[_vis.height-MARGINS.bottom, MARGINS.top]);
+        _vis.setupScale([0,80],[MARGINS.left,_vis.width-MARGINS.left],[0,5.2],[_vis.height-MARGINS.bottom, MARGINS.top]);
         _vis.setupAxes();
         _vis.createCircles();
         _vis.createRectangles();
         _vis.createTriangles();
     });
+}
+
+
+function onMouseOver(data){
+    _vis.svgContainer.selectAll("circle")
+        .select(function(d){
+            return d === data ? this : null;
+        })
+        .attr("r", 8)
+        //.style("fill", "red")
+    ;
+    _vis.svgContainer.selectAll("rect")
+        .select(function(d){
+            //return d.ARL_Unique === data.ARL_Unique ? this : null;
+            return d === data ? this : null;
+        })
+        .attr("width", 16)
+        .attr("height", 16)
+        .attr("x", function(d){
+            return _vis.xAxisScale(d["LanguagesSupported"]) - 8;
+        })
+        //.attr("cx", function(d){return x;})   d is the data we are currently in
+        .attr("y", function(d){
+            return _vis.yAxisScale(d["AverageRating"]) - 32 + 16*d["ARL_Serial"];
+        })
+        //.style("fill", "red")
+    ;
+    _vis.svgContainer.selectAll("polygon")
+        .select(function(d){
+            //return d.ARL_Unique === data.ARL_Unique ? this : null;
+            return d === data ? this : null;
+        })
+        .attr("points", function(d){
+            return [[0,0].join(",")
+                ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale].join(",")
+                ,[Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale].join(",")].join(" ")
+        })
+        //.style("fill", "red")
+    ;
+
+}
+
+
+function onMouseOut(data){
+    _vis.svgContainer.selectAll("circle")
+        .select(function(d){
+            return d === data ? this : null;
+        })
+        .attr("r", 2)
+        .style("fill", function(d){
+            return colorScale(d.PrimaryGenre)
+        })
+    ;
+    _vis.svgContainer.selectAll("rect")
+        .select(function(d){
+            //return d.ARL_Unique === data.ARL_Unique ? this : null;
+            return d === data ? this : null;
+        })
+        .attr("width", 4)
+        .attr("height", 4)
+        .attr("x", function(d){
+            return _vis.xAxisScale(d["LanguagesSupported"]) - 2;
+        })
+        //.attr("cx", function(d){return x;})   d is the data we are currently in
+        .attr("y", function(d){
+            return _vis.yAxisScale(d["AverageRating"]) - 8 + 4*d["ARL_Serial"];
+        })
+        .style("fill", function(d){
+            return colorScale(d.PrimaryGenre)
+        })
+    ;
+    _vis.svgContainer.selectAll("polygon")
+        .select(function(d){
+            //return d.ARL_Unique === data.ARL_Unique ? this : null;
+            return d === data ? this : null;
+        })
+        .attr("points", function(d){
+            return [[0,0].join(",")
+                ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR].join(",")
+                ,[Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR].join(",")].join(" ")
+        })
+        .style("fill", function(d){
+            return colorScale(d.PrimaryGenre)
+        })
+    ;
+
 }
