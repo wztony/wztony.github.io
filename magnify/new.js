@@ -17,10 +17,16 @@ var colors = [
     '#eeff41', '#fbc02d'];
 var colorScale = d3.scaleOrdinal()
     .range(colors);
-const MARGINS = { top:10, right:10, bottom:60, left: 60};
+const MARGINS = { top:10, right:10, bottom:60, left: 60, infoRight: 600, infoBottom: 200, info: 20};
 
-const polyR = 7;
-const polyRScale = 2;
+const rwh = 5;
+const polyR = rwh*2;
+const polyRScale = 3;
+
+const scale = 10;
+
+var selection = false;
+
 
 //we can use object initializer to create object
 //or use constructor function
@@ -28,7 +34,7 @@ const polyRScale = 2;
 var Scatterplot = function(){
     this.data;
     this.width = 800;
-    this.height = 500;
+    this.height = 650;
 
     this.svgContainer;      //have an SVG container, for <svg> element from the document
     this.datapoint;         //circles
@@ -69,6 +75,57 @@ var Scatterplot = function(){
         this.yAxisScale = d3.scaleLinear().domain(yDomain).range(yRange);
     }
 
+    this.setupInfoBox = function(){
+        this.svgContainer.append("text")
+            .attr("class", "APPNAME")
+            .attr("x", this.width-MARGINS.infoRight)
+            .attr("y", this.height-MARGINS.infoBottom)
+            .style("text-anchor", "left")
+            .text("App Name: ")
+        ;
+        this.svgContainer.append("text")
+            .attr("class", "NoRATINGS")
+            .attr("x", this.width-MARGINS.infoRight)
+            .attr("y", this.height-MARGINS.infoBottom+MARGINS.info)
+            .style("text-anchor", "left")
+            .text("No. of Ratings: ")
+        ;
+        this.svgContainer.append("text")
+            .attr("class", "AveRATING")
+            .attr("x", this.width-MARGINS.infoRight)
+            .attr("y", this.height-MARGINS.infoBottom+2*MARGINS.info)
+            .style("text-anchor", "left")
+            .text("Average Rating: ")
+        ;
+        this.svgContainer.append("text")
+            .attr("class", "PRIMARYGENRE")
+            .attr("x", this.width-MARGINS.infoRight)
+            .attr("y", this.height-MARGINS.infoBottom+3*MARGINS.info)
+            .style("text-anchor", "left")
+            .text("Primary Genre: ")
+        ;
+        this.svgContainer.append("text")
+            .attr("class", "NoLANGUAGES")
+            .attr("x", this.width-MARGINS.infoRight)
+            .attr("y", this.height-MARGINS.infoBottom+4*MARGINS.info)
+            .style("text-anchor", "left")
+            .text("Languages Supported: ")
+        ;
+        this.svgContainer.append("text")
+            .attr("class", "SIZE")
+            .attr("x", this.width-MARGINS.infoRight)
+            .attr("y", this.height-MARGINS.infoBottom+5*MARGINS.info)
+            .style("text-anchor", "left")
+            .text("Size in Bytes: ")
+        ;
+    }
+
+    _dispatcherMDown = d3.dispatch("mousedown");
+    _dispatcherMDown.on("mousedown", onMouseDown);
+    _dispatcherMOver = d3.dispatch("mouseover");
+    _dispatcherMOver.on("mouseover", onMouseOver);
+    _dispatcherMOut = d3.dispatch("mouseout");
+    _dispatcherMOut.on("mouseout", onMouseOut);
 
     this.createCircles = function(){
         //create circle for every data point and put it into "datapoint" variable
@@ -78,7 +135,10 @@ var Scatterplot = function(){
             }))                    //bind data to circle
             .enter()                            //allow access to data
             .append("circle")                  //append circle to document
-            .attr("r", 2)
+            .attr("class", function(d){
+                return d.ARL_Unique;
+            })
+            .attr("r", rwh)
             .attr("cx", function(d){
                 return _vis.xAxisScale(d["LanguagesSupported"]);
             })
@@ -87,10 +147,15 @@ var Scatterplot = function(){
             })
             .on("mouseover", function(d){
                 //d3.select(this).style("fill", "blue");
-                onMouseOver(d);
+                //onMouseOver(d);
+                _dispatcherMOver.call("mouseover", this, d);
             })
             .on("mouseout", function(d){
-                onMouseOut(d);
+                //onMouseOut(d);
+                _dispatcherMOut.call("mouseout", this, d);
+            })
+            .on("mousedown", function(d){
+                _dispatcherMDown.call("mousedown", this, d, "selected");
             })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
@@ -121,21 +186,29 @@ var Scatterplot = function(){
             }))                    //bind data to circle
             .enter()                            //allow access to data
             .append("rect")                  //append circle to document
-            .attr("width", 4)
-            .attr("height", 4)
+            .attr("class", function(d){
+                return d.ARL_Unique;
+            })
+            .attr("width", rwh*2)
+            .attr("height", rwh*2)
             .attr("x", function(d){
-                return _vis.xAxisScale(d["LanguagesSupported"]) - 2;
+                return _vis.xAxisScale(d["LanguagesSupported"]) - rwh;
             })
             //.attr("cx", function(d){return x;})   d is the data we are currently in
             .attr("y", function(d){
-                return _vis.yAxisScale(d["AverageRating"]) - 8 + 4*d["ARL_Serial"];
+                return _vis.yAxisScale(d["AverageRating"]) - rwh*4 + rwh*2*d["ARL_Serial"];
             })
             .on("mouseover", function(d){
                 //d3.select(this).style("fill", "blue");
-                onMouseOver(d);
+                //onMouseOver(d);
+                _dispatcherMOver.call("mouseover", this, d);
             })
             .on("mouseout", function(d){
-                onMouseOut(d);
+                //onMouseOut(d);
+                _dispatcherMOut.call("mouseout", this, d);
+            })
+            .on("mousedown", function(d){
+                _dispatcherMDown.call("mousedown", this, d, "selected");
             })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
@@ -155,6 +228,9 @@ var Scatterplot = function(){
             }))
             .enter()
             .append("polygon")
+            .attr("class", function(d){
+                return d.ARL_Unique;
+            })
             .attr("points", function(d){
                 return [[0,0].join(",")
                     ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR].join(",")
@@ -165,10 +241,15 @@ var Scatterplot = function(){
             })
             .on("mouseover", function(d){
                 //d3.select(this).style("fill", "blue");
-                onMouseOver(d);
+                //onMouseOver(d);
+                _dispatcherMOver.call("mouseover", this, d);
             })
             .on("mouseout", function(d){
-                onMouseOut(d);
+                //onMouseOut(d);
+                _dispatcherMOut.call("mouseout", this, d);
+            })
+            .on("mousedown", function(d){
+                _dispatcherMDown.call("mousedown", this, d, "selected");
             })
             .style("fill", function(d){
                 return colorScale(d.PrimaryGenre)
@@ -211,6 +292,7 @@ function loadData(path){
         _vis.data = data;
         _vis.setupScale([0,80],[MARGINS.left,_vis.width-MARGINS.left],[0,5.2],[_vis.height-MARGINS.bottom, MARGINS.top]);
         _vis.setupAxes();
+        _vis.setupInfoBox();
         _vis.createCircles();
         _vis.createRectangles();
         _vis.createTriangles();
@@ -219,86 +301,273 @@ function loadData(path){
 
 
 function onMouseOver(data){
+    if(d3.select(this).attr("class") !== "selected") {
+        enlargeShapes(data);
+    }
+}
+
+function enlargeShapes(data){
+    var arl_unique = "";
     _vis.svgContainer.selectAll("circle")
-        .select(function(d){
+        .select(function (d) {
             return d === data ? this : null;
         })
-        .attr("r", 8)
+        .attr("r", scale)
         //.style("fill", "red")
+        .style("stroke", "black")
     ;
     _vis.svgContainer.selectAll("rect")
-        .select(function(d){
+        .select(function (d) {
             //return d.ARL_Unique === data.ARL_Unique ? this : null;
             return d === data ? this : null;
         })
-        .attr("width", 16)
-        .attr("height", 16)
-        .attr("x", function(d){
-            return _vis.xAxisScale(d["LanguagesSupported"]) - 8;
+        .attr("width", scale*2)
+        .attr("height", scale*2)
+        .attr("x", function (d) {
+            return _vis.xAxisScale(d["LanguagesSupported"]) - scale;
         })
         //.attr("cx", function(d){return x;})   d is the data we are currently in
-        .attr("y", function(d){
-            return _vis.yAxisScale(d["AverageRating"]) - 32 + 16*d["ARL_Serial"];
+        .attr("y", function (d) {
+            return _vis.yAxisScale(d["AverageRating"]) - scale*4 + scale*2 * d["ARL_Serial"];
         })
         //.style("fill", "red")
+        .style("stroke", "black")
     ;
     _vis.svgContainer.selectAll("polygon")
-        .select(function(d){
+        .select(function (d) {
             //return d.ARL_Unique === data.ARL_Unique ? this : null;
             return d === data ? this : null;
         })
-        .attr("points", function(d){
-            return [[0,0].join(",")
-                ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale].join(",")
-                ,[Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR*polyRScale].join(",")].join(" ")
+        .attr("points", function (d) {
+            return [[0, 0].join(",")
+                , [-Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * scale * polyRScale, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * scale * polyRScale].join(",")
+                , [Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * scale * polyRScale, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * scale * polyRScale].join(",")].join(" ")
         })
         //.style("fill", "red")
+        .style("stroke", "black")
     ;
-
 }
 
 
+
+
+
 function onMouseOut(data){
+    if(d3.select(this).attr("class") !== "selected") {
+        shrinkShapes(data);
+    }
+}
+
+function shrinkShapes(data){
     _vis.svgContainer.selectAll("circle")
-        .select(function(d){
+        .select(function (d) {
             return d === data ? this : null;
         })
-        .attr("r", 2)
-        .style("fill", function(d){
+        .attr("r", rwh)
+        .style("fill", function (d) {
             return colorScale(d.PrimaryGenre)
         })
+        .style("stroke", "none")
     ;
     _vis.svgContainer.selectAll("rect")
-        .select(function(d){
+        .select(function (d) {
             //return d.ARL_Unique === data.ARL_Unique ? this : null;
             return d === data ? this : null;
         })
-        .attr("width", 4)
-        .attr("height", 4)
-        .attr("x", function(d){
-            return _vis.xAxisScale(d["LanguagesSupported"]) - 2;
+        .attr("width", rwh * 2)
+        .attr("height", rwh * 2)
+        .attr("x", function (d) {
+            return _vis.xAxisScale(d["LanguagesSupported"]) - rwh;
         })
         //.attr("cx", function(d){return x;})   d is the data we are currently in
-        .attr("y", function(d){
-            return _vis.yAxisScale(d["AverageRating"]) - 8 + 4*d["ARL_Serial"];
+        .attr("y", function (d) {
+            return _vis.yAxisScale(d["AverageRating"]) - rwh * 4 + rwh * 2 * d["ARL_Serial"];
         })
-        .style("fill", function(d){
+        .style("fill", function (d) {
             return colorScale(d.PrimaryGenre)
         })
+        .style("stroke", "none")
     ;
     _vis.svgContainer.selectAll("polygon")
-        .select(function(d){
+        .select(function (d) {
             //return d.ARL_Unique === data.ARL_Unique ? this : null;
             return d === data ? this : null;
         })
-        .attr("points", function(d){
-            return [[0,0].join(",")
-                ,[-Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR].join(",")
-                ,[Math.sin(360/d.ARL_Count/2*Math.PI/180)*polyR,+Math.cos(360/d.ARL_Count/2*Math.PI/180)*polyR].join(",")].join(" ")
+        .attr("points", function (d) {
+            return [[0, 0].join(",")
+                , [-Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")
+                , [Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")].join(" ")
         })
-        .style("fill", function(d){
+        .style("fill", function (d) {
             return colorScale(d.PrimaryGenre)
         })
+        .style("stroke", "none")
     ;
+}
 
+function onMouseDown(data, type){
+    if(d3.select(this).attr("class") === "selected"){
+        type = "selected";
+        var arl_unique = "";
+        _vis.svgContainer.selectAll("circle")
+            .attr("r", rwh)
+            .classed("selected", false)
+            .style("stroke", "none")
+        ;
+        _vis.svgContainer.selectAll("rect")
+            .attr("width", rwh * 2)
+            .attr("height", rwh * 2)
+            .attr("x", function (d) {
+                return _vis.xAxisScale(d["LanguagesSupported"]) - rwh;
+            })
+            //.attr("cx", function(d){return x;})   d is the data we are currently in
+            .attr("y", function (d) {
+                return _vis.yAxisScale(d["AverageRating"]) - rwh * 4 + rwh * 2 * d["ARL_Serial"];
+            })
+            .classed("selected", false)
+            .style("stroke", "none")
+        ;
+        _vis.svgContainer.selectAll("polygon")
+            .attr("points", function (d) {
+                return [[0, 0].join(",")
+                    , [-Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")
+                    , [Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")].join(" ")
+            })
+            .classed("selected", false)
+            .style("stroke", "none")
+        ;
+        _vis.svgContainer.selectAll(".APPNAME")
+            .text("App Name: ")
+        ;
+        _vis.svgContainer.selectAll(".AveRATING")
+            .text("Average Rating: ")
+        ;
+        _vis.svgContainer.selectAll(".NoRATINGS")
+            .text("No. of Ratings: ")
+        ;
+        _vis.svgContainer.selectAll(".PRIMARYGENRE")
+            .text("Primary Genre: ")
+        ;
+        _vis.svgContainer.selectAll(".NoLANGUAGES")
+            .text("Languages Supported: ")
+        ;
+        _vis.svgContainer.selectAll(".SIZE")
+            .text("Size in Bytes: ")
+        ;
+    }
+    else{
+        _vis.svgContainer.selectAll("circle")
+            .attr("r", rwh)
+            .classed("selected", false)
+            .style("stroke", "none")
+        ;
+        _vis.svgContainer.selectAll("rect")
+            .attr("width", rwh * 2)
+            .attr("height", rwh * 2)
+            .attr("x", function (d) {
+                return _vis.xAxisScale(d["LanguagesSupported"]) - rwh;
+            })
+            //.attr("cx", function(d){return x;})   d is the data we are currently in
+            .attr("y", function (d) {
+                return _vis.yAxisScale(d["AverageRating"]) - rwh * 4 + rwh * 2 * d["ARL_Serial"];
+            })
+            .classed("selected", false)
+            .style("stroke", "none")
+        ;
+        _vis.svgContainer.selectAll("polygon")
+            .attr("points", function (d) {
+                return [[0, 0].join(",")
+                    , [-Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")
+                    , [Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")].join(" ")
+            })
+            .classed("selected", false)
+            .style("stroke", "none")
+        ;
+
+        var appName = "";
+        var aveRating = "";
+        var noRating = "";
+        var primaryGenre = "";
+        var langSupported = "";
+        var size = "";
+
+        _vis.svgContainer.selectAll("circle")
+            .select(function(d){
+                if(d === data){
+                    console.log("circle selected");
+                    enlargeShapes(d);
+                    arl_unique = d.ARL_Unique;
+                    appName = d.AppName;
+                    aveRating = d.AverageRating;
+                    noRating = d.RatingCount;
+                    primaryGenre = d.PrimaryGenre;
+                    langSupported = d.LanguagesSupported;
+                    size = d.SizeBytes;
+                    return this;
+                }
+                else
+                    return null;
+            })
+            .attr("class", type)
+            .style("stroke", "black")
+        ;
+        _vis.svgContainer.selectAll("rect")
+            .select(function(d){
+                if(d === data){
+                    console.log("rect selected");
+                    enlargeShapes(d);
+                    arl_unique = d.ARL_Unique;
+                    appName = d.AppName;
+                    aveRating = d.AverageRating;
+                    noRating = d.RatingCount;
+                    primaryGenre = d.PrimaryGenre;
+                    langSupported = d.LanguagesSupported;
+                    size = d.SizeBytes;
+                    return this;
+                }
+                else
+                    return null;
+            })
+            .attr("class", type)
+            .style("stroke", "black")
+        ;
+        _vis.svgContainer.selectAll("polygon")
+            .select(function(d){
+                if(d === data){
+                    console.log("polygon selected");
+                    enlargeShapes(d);
+                    arl_unique = d.ARL_Unique;
+                    appName = d.AppName;
+                    aveRating = d.AverageRating;
+                    noRating = d.RatingCount;
+                    primaryGenre = d.PrimaryGenre;
+                    langSupported = d.LanguagesSupported;
+                    size = d.SizeBytes;
+                    return this;
+                }
+                else
+                    return null;
+            })
+            .attr("class", type)
+            .style("stroke", "black")
+        ;
+        _vis.svgContainer.selectAll(".APPNAME")
+            .text("App Name: " + appName)
+        ;
+        _vis.svgContainer.selectAll(".AveRATING")
+            .text("Average Rating: " + aveRating)
+        ;
+        _vis.svgContainer.selectAll(".NoRATINGS")
+            .text("No. of Ratings: " + noRating)
+        ;
+        _vis.svgContainer.selectAll(".PRIMARYGENRE")
+            .text("Primary Genre: " + primaryGenre)
+        ;
+        _vis.svgContainer.selectAll(".NoLANGUAGES")
+            .text("Languages Supported: " + langSupported)
+        ;
+        _vis.svgContainer.selectAll(".SIZE")
+            .text("Size in Bytes: " + size)
+        ;
+    }
 }
