@@ -353,7 +353,7 @@ function enlargeShapes(data){
         })
         .attr("r", scale)
         //.style("fill", "red")
-        .style("stroke", "black")
+        //.style("stroke", "black")
     ;
     _vis.svgContainer.selectAll("rect")
         .select(function (d) {
@@ -370,7 +370,7 @@ function enlargeShapes(data){
             return _vis.yAxisScale(d["AverageRating"]) - scale*4 + scale*2 * d["ARL_Serial"];
         })
         //.style("fill", "red")
-        .style("stroke", "black")
+        //.style("stroke", "black")
     ;
     _vis.svgContainer.selectAll("polygon")
         .select(function (d) {
@@ -383,7 +383,7 @@ function enlargeShapes(data){
                 , [Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * scale * polyRScale, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * scale * polyRScale].join(",")].join(" ")
         })
         //.style("fill", "red")
-        .style("stroke", "black")
+        //.style("stroke", "black")
     ;
 }
 
@@ -449,12 +449,12 @@ function onMouseDown(data, type){
         type = "selected";
         var arl_unique = "";
         _vis.svgContainer.selectAll("circle")
-            .attr("r", rwh)
+            //.attr("r", rwh)
             .classed("selected", false)
             .style("stroke", "none")
         ;
         _vis.svgContainer.selectAll("rect")
-            .attr("width", rwh * 2)
+            /*.attr("width", rwh * 2)
             .attr("height", rwh * 2)
             .attr("x", function (d) {
                 return _vis.xAxisScale(d["LanguagesSupported"]) - rwh;
@@ -462,16 +462,16 @@ function onMouseDown(data, type){
             //.attr("cx", function(d){return x;})   d is the data we are currently in
             .attr("y", function (d) {
                 return _vis.yAxisScale(d["AverageRating"]) - rwh * 4 + rwh * 2 * d["ARL_Serial"];
-            })
+            })*/
             .classed("selected", false)
             .style("stroke", "none")
         ;
         _vis.svgContainer.selectAll("polygon")
-            .attr("points", function (d) {
+            /*.attr("points", function (d) {
                 return [[0, 0].join(",")
                     , [-Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")
                     , [Math.sin(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR, +Math.cos(360 / d.ARL_Count / 2 * Math.PI / 180) * polyR].join(",")].join(" ")
-            })
+            })*/
             .classed("selected", false)
             .style("stroke", "none")
         ;

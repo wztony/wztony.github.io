@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="595">
               <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="477" column="54" selection-start-line="477" selection-start-column="54" selection-end-line="477" selection-end-column="54" />
+            <state relative-caret-position="463">
+              <caret line="473" column="16" selection-start-line="473" selection-start-column="16" selection-end-line="473" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -146,11 +146,12 @@
       <workItem from="1553886189886" duration="474000" />
       <workItem from="1554852819962" duration="14427000" />
       <workItem from="1554973420772" duration="7480000" />
+      <workItem from="1554961178743" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58203000" />
+    <option name="totallyTimeSpent" value="58394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -187,15 +188,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="595">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="477" column="54" selection-start-line="477" selection-start-column="54" selection-end-line="477" selection-end-column="54" />
+        <state relative-caret-position="463">
+          <caret line="473" column="16" selection-start-line="473" selection-start-column="16" selection-end-line="473" selection-end-column="16" />
         </state>
       </provider>
     </entry>
