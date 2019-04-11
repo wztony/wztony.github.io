@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+            <state relative-caret-position="442">
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="330" column="93" lean-forward="true" selection-start-line="330" selection-start-column="93" selection-end-line="330" selection-end-column="93" />
+            <state relative-caret-position="303">
+              <caret line="477" column="54" selection-start-line="477" selection-start-column="54" selection-end-line="477" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -60,6 +60,10 @@
       <find>click</find>
       <find>shrinkShapes</find>
       <find>polyRScale</find>
+      <find>rect</find>
+      <find>setupScale</find>
+      <find>suppor</find>
+      <find>INFOBOX</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,7 +79,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -85,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +101,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,11 +145,12 @@
       <workItem from="1553285187737" duration="1266000" />
       <workItem from="1553886189886" duration="474000" />
       <workItem from="1554852819962" duration="14427000" />
+      <workItem from="1554973420772" duration="7480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50723000" />
+    <option name="totallyTimeSpent" value="58203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -175,22 +180,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+        <state relative-caret-position="442">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="330" column="93" lean-forward="true" selection-start-line="330" selection-start-column="93" selection-end-line="330" selection-end-column="93" />
+        <state relative-caret-position="303">
+          <caret line="477" column="54" selection-start-line="477" selection-start-column="54" selection-end-line="477" selection-end-column="54" />
         </state>
       </provider>
     </entry>

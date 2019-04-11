@@ -10,14 +10,15 @@ window.onload = function(){
  */
 var _vis;
 var colors = [
-    '#64b5f6', '#b3e5fc', '#4dd0e1', '#00838f',
     '#c62828', '#e57373', '#f8bbd0', '#ec407a',
-    '#8e24aa', '#b39ddb', '#5c6bc0', '#283593',
-    '#80cbc4', '#c8e6c9', '#4caf50', '#8bc34a',
-    '#eeff41', '#fbc02d'];
+    '#f9e79f', '#ffeb3b', '#fbc02d', '#d35400',
+    '#bcaaa4', '#795548',
+    '#80cbc4', '#4caf50', '#8bc34a', '#e6ee9c',
+    '#64b5f6', '#b3e5fc', '#4dd0e1', '#00838f',
+    '#8e24aa', '#b39ddb', '#5c6bc0', '#283593'];
 var colorScale = d3.scaleOrdinal()
     .range(colors);
-const MARGINS = { top:10, right:10, bottom:60, left: 60, infoRight: 600, infoBottom: 200, info: 20};
+const MARGINS = { top:10, right:150, bottom:60, left: 60, infoRight: 600, infoBottom: 280, info: 20, legTop: 150};
 
 const rwh = 5;
 const polyR = rwh*2;
@@ -26,6 +27,10 @@ const polyRScale = 3;
 const scale = 10;
 
 var selection = false;
+
+var genre = ["Book", "Business", "Catelogs", "Education", "Entertainment", "Finance", "Food & Drink",
+"Games", "Health & Fitness", "Lifestyle", "Music", "Navigation", "News", "Photo & Video", "Productivity",
+"Reference", "Shopping", "Social Networking", "Sports", "Travel", "Utilities", "Weather"];
 
 
 //we can use object initializer to create object
@@ -55,6 +60,7 @@ var Scatterplot = function(){
         this.svgContainer.append("text")
             .attr("x", this.width/2)
             .attr("y", this.height-MARGINS.bottom/2)
+            .attr("font-size", 20)
             .style("text-anchor", "middle")
             .text("Languages Supported")
         ;
@@ -64,6 +70,7 @@ var Scatterplot = function(){
             .attr("x", MARGINS.left)
             .attr("y", this.height/2)
             .attr("transform", `rotate(-90, ${MARGINS.left/3}, ${this.height/2})`)
+            .attr("font-size", 20)
             .style("text-anchor", "middle")
             .text("Average Rating")
         ;
@@ -76,47 +83,79 @@ var Scatterplot = function(){
     }
 
     this.setupInfoBox = function(){
+        var i;
+        for(i = 0; i<genre.length;i++){
+            this.svgContainer.append("line")
+                .attr("class", "legendColor")
+                .attr("x1", this.width-MARGINS.right-10)
+                .attr("y1", MARGINS.legTop+20*i)
+                .attr("x2", this.width-MARGINS.right)
+                .attr("y2", MARGINS.legTop+20*i)
+                .style("stroke-width", 10)
+                .style("stroke", function(){
+                    return colorScale(genre[i]);
+                })
+            ;
+            this.svgContainer.append("text")
+                .attr("x", this.width-MARGINS.right+10)
+                .attr("y", MARGINS.legTop+20*i+5)
+                .text(genre[i])
+        }
+        this.svgContainer.append("text")
+            .attr("class", "CURRENTSELECTION")
+            .attr("x", this.width-MARGINS.infoRight)
+            .attr("y", this.height-MARGINS.infoBottom+MARGINS.info)
+            .attr("font-size", 20)
+            .style("text-anchor", "left")
+            .text("")
+        ;
         this.svgContainer.append("text")
             .attr("class", "APPNAME")
             .attr("x", this.width-MARGINS.infoRight)
-            .attr("y", this.height-MARGINS.infoBottom)
+            .attr("y", this.height-MARGINS.infoBottom+2*MARGINS.info)
             .style("text-anchor", "left")
-            .text("App Name: ")
+            //.text("App Name: ")
+            .text("")
         ;
         this.svgContainer.append("text")
             .attr("class", "NoRATINGS")
             .attr("x", this.width-MARGINS.infoRight)
-            .attr("y", this.height-MARGINS.infoBottom+MARGINS.info)
+            .attr("y", this.height-MARGINS.infoBottom+3*MARGINS.info)
             .style("text-anchor", "left")
-            .text("No. of Ratings: ")
+            //.text("No. of Ratings: ")
+            .text("")
         ;
         this.svgContainer.append("text")
             .attr("class", "AveRATING")
             .attr("x", this.width-MARGINS.infoRight)
-            .attr("y", this.height-MARGINS.infoBottom+2*MARGINS.info)
+            .attr("y", this.height-MARGINS.infoBottom+4*MARGINS.info)
             .style("text-anchor", "left")
-            .text("Average Rating: ")
+            //.text("Average Rating: ")
+            .text("")
         ;
         this.svgContainer.append("text")
             .attr("class", "PRIMARYGENRE")
             .attr("x", this.width-MARGINS.infoRight)
-            .attr("y", this.height-MARGINS.infoBottom+3*MARGINS.info)
+            .attr("y", this.height-MARGINS.infoBottom+5*MARGINS.info)
             .style("text-anchor", "left")
-            .text("Primary Genre: ")
+            //.text("Primary Genre: ")
+            .text("")
         ;
         this.svgContainer.append("text")
             .attr("class", "NoLANGUAGES")
             .attr("x", this.width-MARGINS.infoRight)
-            .attr("y", this.height-MARGINS.infoBottom+4*MARGINS.info)
+            .attr("y", this.height-MARGINS.infoBottom+6*MARGINS.info)
             .style("text-anchor", "left")
-            .text("Languages Supported: ")
+            //.text("Languages Supported: ")
+            .text("")
         ;
         this.svgContainer.append("text")
             .attr("class", "SIZE")
             .attr("x", this.width-MARGINS.infoRight)
-            .attr("y", this.height-MARGINS.infoBottom+5*MARGINS.info)
+            .attr("y", this.height-MARGINS.infoBottom+7*MARGINS.info)
             .style("text-anchor", "left")
-            .text("Size in Bytes: ")
+            //.text("Size in Bytes: ")
+            .text("")
         ;
     }
 
@@ -272,8 +311,8 @@ function setup(){
     //init visualization
     _vis = new Scatterplot();               //create an instance of Scatterplot object
     _vis.svgContainer = d3.select("#vis");  //select object with id "vis", ie. <svg id="vis" class="svg_boxes"></svg> in index.html
-    _vis.width = _vis.svgContainer.node().getBoundingClientRect().width === undefined ? 800 : _vis.svgContainer.node().getBoundingClientRect().width;
-    _vis.height = _vis.svgContainer.node().getBoundingClientRect().height;
+    _vis.width = _vis.svgContainer.node().getBoundingClientRect().width === undefined ? 700 : _vis.svgContainer.node().getBoundingClientRect().width;
+    _vis.height = _vis.svgContainer.node().getBoundingClientRect().height === undefined ? 1800 : _vis.svgContainer.node().getBoundingClientRect().height;
     //D3 is a declarative language, vs imparative language Java
     //*********declarative language: you tell the computer what to do, not how to do
     //that's why you will rarely see for-loops in D3
@@ -290,7 +329,7 @@ function loadData(path){
     // call D3's loading function for CSV and load the data to our global variable _data
     d3.csv(path).then(function(data){
         _vis.data = data;
-        _vis.setupScale([0,80],[MARGINS.left,_vis.width-MARGINS.left],[0,5.2],[_vis.height-MARGINS.bottom, MARGINS.top]);
+        _vis.setupScale([0,80],[MARGINS.left,_vis.width-MARGINS.left-MARGINS.right],[0,5.2],[_vis.height-MARGINS.bottom, MARGINS.top]);
         _vis.setupAxes();
         _vis.setupInfoBox();
         _vis.createCircles();
@@ -436,23 +475,26 @@ function onMouseDown(data, type){
             .classed("selected", false)
             .style("stroke", "none")
         ;
+        _vis.svgContainer.selectAll(".CURRENTSELECTION")
+            .text("")
+        ;
         _vis.svgContainer.selectAll(".APPNAME")
-            .text("App Name: ")
+            .text("")
         ;
         _vis.svgContainer.selectAll(".AveRATING")
-            .text("Average Rating: ")
+            .text("")
         ;
         _vis.svgContainer.selectAll(".NoRATINGS")
-            .text("No. of Ratings: ")
+            .text("")
         ;
         _vis.svgContainer.selectAll(".PRIMARYGENRE")
-            .text("Primary Genre: ")
+            .text("")
         ;
         _vis.svgContainer.selectAll(".NoLANGUAGES")
-            .text("Languages Supported: ")
+            .text("")
         ;
         _vis.svgContainer.selectAll(".SIZE")
-            .text("Size in Bytes: ")
+            .text("")
         ;
     }
     else{
@@ -550,6 +592,9 @@ function onMouseDown(data, type){
             })
             .attr("class", type)
             .style("stroke", "black")
+        ;
+        _vis.svgContainer.selectAll(".CURRENTSELECTION")
+            .text("Current Selection")
         ;
         _vis.svgContainer.selectAll(".APPNAME")
             .text("App Name: " + appName)
